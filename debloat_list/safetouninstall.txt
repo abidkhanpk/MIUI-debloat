@@ -8,7 +8,6 @@ com.android.chrome
 com.android.egg
 com.android.hotwordenrollment.okgoogle
 com.android.hotwordenrollment.xgoogle
-com.android.printspooler
 com.android.providers.partnerbookmarks
 com.aura.oobe.deutsche
 com.aura.oobe.vodafone
@@ -61,13 +60,9 @@ com.miui.audioeffect
 com.miui.audiomonitor
 com.miui.bugreport
 com.miui.cit
-com.miui.contentcatcher
 com.miui.daemon
 com.miui.huanji
-com.miui.hybrid
-com.miui.hybrid.accessory
 com.miui.maintenancemode
-com.miui.micloudsync
 com.miui.miservice
 com.miui.mishare.connectivity
 com.miui.misound
@@ -81,7 +76,6 @@ com.miui.systemAdSolution
 com.miui.touchassistant
 com.miui.translation.kingsoft
 com.miui.translationservice
-com.miui.translation.xmcloud
 com.miui.translation.youdao
 com.miui.videoplayer
 com.miui.voiceassist
@@ -103,7 +97,6 @@ com.xiaomi.aiasst.service
 com.xiaomi.gamecenter.sdk.service
 com.xiaomi.glgm
 com.xiaomi.joyose
-com.xiaomi.micloud.sdk
 com.xiaomi.mi_connect_service
 com.xiaomi.midrop
 com.xiaomi.migameservice
@@ -111,7 +104,6 @@ com.xiaomi.miplay_client
 com.xiaomi.mircs
 com.xiaomi.mirror
 com.xiaomi.payment
-com.xiaomi.powerchecker
 com.xiaomi.simactivate.service
 com.xiaomi.smarthome
 com.xiaomi.xmsf

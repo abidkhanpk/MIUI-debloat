@@ -135,6 +135,7 @@ com.miui.freeform
 com.miui.guardprovider
 com.miui.home
 com.miui.mediaeditor
+com.miui.micloudsync
 com.miui.mishare.connectivity
 com.miui.misound
 com.miui.miwallpaper
@@ -156,6 +157,7 @@ com.miui.settings.rro.device.type.overlay
 com.miui.system.overlay
 com.miui.systemui.carriers.overlay
 com.miui.touchassistant
+com.miui.translation.xmcloud
 com.miui.tsmclient
 com.miui.wallpaper.overlay
 com.miui.wallpaper.overlay.customize
@@ -204,6 +206,7 @@ com.xiaomi.cameratools
 com.xiaomi.finddevice
 com.xiaomi.market
 com.xiaomi.metoknlp
+com.xiaomi.micloud.sdk
 com.xiaomi.mirror
 com.xiaomi.mtb
 com.xiaomi.scanner
