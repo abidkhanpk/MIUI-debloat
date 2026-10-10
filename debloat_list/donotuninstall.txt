@@ -129,11 +129,14 @@ com.miui.cloudbackup
 com.miui.cloudservice
 com.miui.cloudservice.sysbase
 com.miui.compass
+com.miui.contentcatcher
 com.miui.extraphoto
 com.miui.face
 com.miui.freeform
 com.miui.guardprovider
 com.miui.home
+com.miui.hybrid
+com.miui.hybrid.accessory
 com.miui.mediaeditor
 com.miui.micloudsync
 com.miui.mishare.connectivity
@@ -209,6 +212,7 @@ com.xiaomi.metoknlp
 com.xiaomi.micloud.sdk
 com.xiaomi.mirror
 com.xiaomi.mtb
+com.xiaomi.powerchecker
 com.xiaomi.scanner
 com.xiaomi.trustservice
 com.xiaomi.xmsf
