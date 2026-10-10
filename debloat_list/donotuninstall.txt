@@ -58,6 +58,7 @@ com.android.wallpaper.livepicker
 com.android.wallpaperpicker
 com.bsp.catchlog
 com.debug.loggerui
+com.duokan.phone.remotecontroller
 com.fido.asm
 com.goodix.fingerprint.setting
 com.google.ambient.streaming
@@ -76,6 +77,7 @@ com.google.android.federatedcompute
 com.google.android.gms
 com.google.android.gms.location.history
 com.google.android.gms.supervision
+com.google.android.inputmethod.latin
 com.google.android.marvin.talkback
 com.google.android.modulemetadata
 com.google.android.ondevicepersonalization.services

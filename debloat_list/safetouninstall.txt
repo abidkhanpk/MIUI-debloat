@@ -16,7 +16,6 @@ com.booking
 com.crazy.juicer.xm
 com.dti.bouyguestelecom
 com.dti.telefonica
-com.duokan.phone.remotecontroller
 com.facebook.appmanager
 com.facebook.katana
 com.facebook.services
@@ -40,7 +39,6 @@ com.google.android.dialer
 com.google.android.feedback
 com.google.android.gm
 com.google.android.googlequicksearchbox
-com.google.android.inputmethod.latin
 com.google.android.marvin.talkback
 com.google.android.videos
 com.google.android.youtube
