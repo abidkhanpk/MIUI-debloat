@@ -102,7 +102,6 @@ com.xiaomi.miplay_client
 com.xiaomi.mircs
 com.xiaomi.mirror
 com.xiaomi.payment
-com.xiaomi.simactivate.service
 com.xiaomi.smarthome
 com.xiaomi.xmsf
 com.xiaomi.xmsfkeeper

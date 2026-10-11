@@ -216,6 +216,7 @@ com.xiaomi.mirror
 com.xiaomi.mtb
 com.xiaomi.powerchecker
 com.xiaomi.scanner
+com.xiaomi.simactivate.service
 com.xiaomi.trustservice
 com.xiaomi.xmsf
 com.xiaomi.xmsfkeeper
