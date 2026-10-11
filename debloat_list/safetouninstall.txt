@@ -608,10 +608,6 @@ com.google.android.apps.nbu.files
 # Purpose: Google Storage Manager (nikgapps StorageManager=-1). Google's storage cleaner in Settings.
 # Effect of removal: Google storage cleaner UI removed; AOSP storage manager (com.android.storagemanager, protected) unaffected.
 com.google.android.storagemanager
-# Package: com.google.android.documentsui
-# Purpose: Google DocumentsUI (nikgapps DocumentsUIGoogle=-1). Google's file picker UI.
-# Effect of removal: Removes Google file picker; MIUI File Manager handles file picking.
-com.google.android.documentsui
 # Package: com.google.android.markup
 # Purpose: Google Markup (nikgapps MarkupGoogle=-1). Screenshot markup editor from AOSP/Pixel.
 # Effect of removal: Safe on MIUI: screenshot editing is handled by MIUI Screenshot (protected), not this package.

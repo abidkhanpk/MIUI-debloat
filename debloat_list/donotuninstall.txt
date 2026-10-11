@@ -849,6 +849,13 @@ com.google.android.overlay.modules.captiveportallogin.forframework
 # Effect of removal: May glitch standard file picker dialog in third-party apps.
 com.google.android.overlay.modules.documentsui
 
+# Package: com.google.android.documentsui
+# Purpose: Google DocumentsUI - the system file picker (Storage Access Framework UI).
+# Effect of removal: BREAKS the file chooser in third-party apps. Confirmed 2026-10-11:
+# Futo Keyboard backup import showed an "access denied" page instead of the file picker.
+# MIUI File Manager does NOT substitute for this. Moved from remove list to protected.
+com.google.android.documentsui
+
 # Package: com.google.android.overlay.modules.ext.services
 # Purpose: Google Extended Services framework integration overlay.
 # Effect of removal: May glitch smart contextual suggestions.
