@@ -9,8 +9,13 @@ By running this script, you can declutter your phone, improve performance, and f
 **DISCLAIMER: Use at your own risk. I am not responsible for anything that could happen to your phone. It is highly recommended to use it on a new phone or on a clean state after your phone is reset.**
 
 ## Debloat List
-This list is curated and tested for **MIUI 14 Global 14.0.9 TNHMIXM**
-- Xiaomi Redmi Note 13 4G NFC (sapphiren)
+This list is curated for **MIUI 14**
+- Xiaomi Redmi Note 10 Pro (sweet)
+
+The two list files drive everything:
+- `debloat_list/safetouninstall.txt` - packages that WILL be removed
+- `debloat_list/donotuninstall.txt` - packages that will NEVER be removed
+  (this file wins if a package ever appears in both)
 
 # Setting Up
 ## Download Python
@@ -59,7 +64,9 @@ Run the command to get the list of apps on your phone
 ```
 
 ## Custom Debloat List
-To customize the list of apps to be removed, you can add the apps into the `debloat_list/donotuninstall.txt`. 
+To customize what gets removed, edit the two files in `debloat_list/`:
+- add a package to `safetouninstall.txt` to REMOVE it
+- add a package to `donotuninstall.txt` to KEEP it (this file always wins)
 
 
 ## Generate List of App to Uninstall
@@ -68,19 +75,30 @@ Run the script to get the list of app to uninstall
 python main.py
 ```
 
-Two list will be generated in 'output' folder 
-`uninstall_list.txt` the packages that will be uninstalled 
-`remaining_list.txt` the packages that will remain untouched
+Three files will be generated in the 'output' folder:
+- `uninstall_list.sh` - executable script with the `adb shell pm uninstall --user 0` commands
+- `restore_list.sh` - executable rollback script (`adb shell cmd package install-existing`) for the same packages
+- `remaining_list.txt` - the packages that will remain untouched
+
+Always review `output/uninstall_list.sh` before running it.
 
 ## Uninstalling of Apps
 
-On Linux 
-Rename uninstall_list.txt to uninstall_list.sh, run the uninstall_list.sh file
+Run the generated script (it is already executable):
 ```
-./uninstall_list.sh
+./output/uninstall_list.sh
+```
+or
+```
+bash output/uninstall_list.sh
 ```
 
-Otherwise you can run the uninstall command individually in the `uninstall_list.txt`.
+If anything breaks, roll everything back with:
+```
+./output/restore_list.sh
+```
+then reboot the phone. (`pm uninstall --user 0` never touches the system
+partition, so a factory reset also restores everything.)
 
 # Reference
 The debloat list is taken from \
