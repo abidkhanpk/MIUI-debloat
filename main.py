@@ -20,8 +20,8 @@ if not os.path.exists("output"):
 with open("output/uninstall_list.txt", 'w') as f_out:
     # Write each item to the output file
     for item in uninstall_list:
-        # Reference the adb in the correct folder
-        f_out.write('~/Documents/adb/adb shell pm uninstall --user 0 ' + item + '\n')
+        # adb is now configured in system PATH
+        f_out.write('adb shell pm uninstall --user 0 ' + item + '\n')
 
 remaining_list.sort()
 

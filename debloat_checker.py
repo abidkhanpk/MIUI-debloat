@@ -1,25 +1,36 @@
+import os
 import json
 
-# Global debloat list
+# Global UAD debloat reference list
 with open("debloat_list/uad_lists.json", 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-
-#app_package_names = list(data.keys())
 app_package_names = []
 for line in data:
     if 'removal' in data[line] and data[line]['removal'] == 'Recommended':
         app_package_names.append(line)
 
-with open("debloat_list/donotuninstall.txt", 'r') as f:
-    donotuninstall_lines = f.readlines()
 
-donotuninstall = [line.strip() for line in donotuninstall_lines]
+def load_package_list(filepath):
+    """Load package names from a file, ignoring comments and empty lines."""
+    packages = set()
+    if not os.path.exists(filepath):
+        return packages
+    with open(filepath, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            # Ignore empty lines and comment lines
+            if not line or line.startswith('#'):
+                continue
+            # Extract package name (handles possible inline comments)
+            pkg = line.split('#')[0].strip()
+            if pkg:
+                packages.add(pkg)
+    return packages
 
-with open("debloat_list/safetouninstall.txt", 'r') as f:
-    safetouninstall_lines = f.readlines()
 
-safetouninstall = [line.strip() for line in safetouninstall_lines]
+donotuninstall = load_package_list("debloat_list/donotuninstall.txt")
+safetouninstall = load_package_list("debloat_list/safetouninstall.txt")
 
 
 def checkDebloat(items):
@@ -27,13 +38,15 @@ def checkDebloat(items):
     remaining_list = []
 
     for item in items:
-        if item in app_package_names or item in safetouninstall:
+        # Check against the curated safe-to-uninstall list
+        if item in safetouninstall:
             uninstall_list.append(item)
         else:
             remaining_list.append(item)
 
     final_uninstall_list = []
     for item in uninstall_list:
+        # Strictly preserve any package in the protected do-not-uninstall list
         if item in donotuninstall:
             remaining_list.append(item)
         else:

@@ -1,225 +1,1314 @@
-android.aosp.overlay
-android.autoinstalls.config.Xiaomi.model
-android.qvaoverlay.common
-com.android.angle
-com.android.bluetooth
-com.android.bluetoothmidiservice
-com.android.bluetooth.overlay
-com.android.calllogbackup
-com.android.camera
-com.android.cameraextensions
-com.android.captiveportallogin
-com.android.cellbroadcastreceiver
-com.android.cellbroadcastreceiver.overlay.common
-com.android.cts.ctsshim
-com.android.htmlviewer
-com.android.inputsettings.overlay.miui
-com.android.internal.display.cutout.emulation.corner
-com.android.internal.display.cutout.emulation.waterfall
-com.android.internal.systemui.navbar.gestural_extra_wide_back
-com.android.keychain
-com.android.location.fused
-com.android.managedprovisioning.overlay
-com.android.microdroid.empty_payload
-com.android.networkstack.tethering.inprocess.overlay
-com.android.overlay.gmscontactprovider
-com.android.overlay.gmssettingprovider
-com.android.overlay.gmssettings
-com.android.overlay.gmstelecomm
-com.android.overlay.gmstelephony
-com.android.phone
-com.android.phone.common.overlay.miui
-com.android.phone.overlay.miui
-com.android.printspooler
-com.android.providers.settings
-com.android.providers.settings.overlay
-com.android.providers.telephony
-com.android.providers.userdictionary
-com.android.rkpdapp
-com.android.role.notes.enabled
-com.android.settings.overlay.miui
-com.android.simappdialog
-com.android.soundrecorder
-com.android.stk.overlay.miui
-com.android.storagemanager
-com.android.systemui.accessibility.accessibilitymenu
-com.android.systemui.gesture.line.overlay
-com.android.systemui.overlay.common
-com.android.systemui.overlay.miui
-com.android.theme.font.notoserifsource
-com.android.thememanager
-com.android.traceur
-com.android.updater
-com.android.uwb.resources
-com.android.vending
-com.android.virtualmachine.res
-com.android.vpndialogs
-com.android.wallpaper.livepicker
-com.android.wallpaperpicker
-com.bsp.catchlog
-com.debug.loggerui
-com.duokan.phone.remotecontroller
-com.fido.asm
-com.goodix.fingerprint.setting
-com.google.ambient.streaming
-com.google.android.accessibility.switchaccess
-com.google.android.adservices.api
-com.google.android.apps.maps
-com.google.android.apps.restore
-com.google.android.apps.turbo
-com.google.android.as
-com.google.android.as.oss
-com.google.android.cellbroadcastreceiver.overlay.miui
-com.google.android.cellbroadcastservice.overlay.miui
-com.google.android.configupdater
-com.google.android.ext.services
-com.google.android.federatedcompute
-com.google.android.gms
-com.google.android.gms.location.history
-com.google.android.gms.supervision
-com.google.android.inputmethod.latin
-com.google.android.marvin.talkback
-com.google.android.modulemetadata
-com.google.android.ondevicepersonalization.services
-com.google.android.onetimeinitializer
-com.google.android.overlay.gmsconfig.asi
-com.google.android.overlay.gmsconfig.common
-com.google.android.overlay.gmsconfig.comms
-com.google.android.overlay.gmsconfig.geotz
-com.google.android.overlay.gmsconfig.gsa
-com.google.android.overlay.gmsconfig.personalsafety
-com.google.android.overlay.healthconnect
-com.google.android.overlay.modules.captiveportallogin.forframework
-com.google.android.overlay.modules.documentsui
-com.google.android.overlay.modules.ext.services
-com.google.android.overlay.modules.modulemetadata.forframework
-com.google.android.overlay.modules.permissioncontroller
-com.google.android.overlay.modules.permissioncontroller.forframework
-com.google.android.projection.gearhead
-com.google.android.safetycenter.resources
-com.google.android.tts
-com.google.mainline.adservices
-com.lbe.security.miui
-com.mediatek.batterywarning
-com.mediatek.callrecorder
-com.mediatek.capctrl.service
-com.mediatek.engineermode
-com.mediatek.gbaservice
-com.mediatek.ims
-com.mediatek.lbs.em2.ui
-com.mediatek.location.lppe.main
-com.mediatek.location.mtkgeofence
-com.mediatek.mdmconfig
-com.mediatek.mdmlsample
-com.mediatek.miravision.ui
-com.mediatek.MtkSettingsResOverlay
-com.mediatek.SettingsProviderResOverlay
-com.mediatek.voicecommand
-com.mediatek.voiceunlock
-com.mediatek.ygps
-com.mi.android.globalFileexplorer
-com.mi.healthglobal
-com.milink.service
-com.miui.accessibility
-com.miui.aod
-com.miui.android.fashiongallery
-com.miui.backup
-com.miui.calculator
-com.miui.cit
-com.miui.cleaner
-com.miui.cloudbackup
-com.miui.cloudservice
-com.miui.cloudservice.sysbase
-com.miui.compass
-com.miui.contentcatcher
-com.miui.extraphoto
-com.miui.face
-com.miui.freeform
-com.miui.guardprovider
-com.miui.home
-com.miui.hybrid
-com.miui.hybrid.accessory
-com.miui.mediaeditor
-com.miui.micloudsync
-com.miui.mishare.connectivity
-com.miui.misound
-com.miui.miwallpaper
-com.miui.miwallpaper.config.overlay
-com.miui.miwallpaper.overlay
-com.miui.miwallpaper.overlay.customize
-com.miui.notes
-com.miui.packageinstaller
-com.miui.phone.carriers.overlay.h3g
-com.miui.phone.carriers.overlay.vodafone
-com.miui.powerkeeper
-com.miui.qr
-com.miui.screenrecorder
-com.miui.screenshot
-com.miui.securityadd
-com.miui.securitycenter
-com.miui.settings.rro.device.hide.statusbar.overlay
-com.miui.settings.rro.device.type.overlay
-com.miui.system.overlay
-com.miui.systemui.carriers.overlay
-com.miui.touchassistant
-com.miui.translation.xmcloud
-com.miui.tsmclient
-com.miui.wallpaper.overlay
-com.miui.wallpaper.overlay.customize
-com.miui.weather2
-com.miuix.editor
-com.modemdebug
-com.qti.dcf
-com.qti.qcc
-com.qti.qualcomm.deviceinfo
-com.qti.service.colorservice
-com.qti.xdivert
-com.qualcomm.atfwd
-com.qualcomm.atfwd2
-com.qualcomm.location
-com.qualcomm.qti.biometrics.fingerprint.service
-com.qualcomm.qti.devicestatisticsservice
-com.qualcomm.qti.performancemode
-com.qualcomm.qti.powersavemode
-com.qualcomm.qti.qcolor
-com.qualcomm.qti.qms.service.connectionsecurity
-com.qualcomm.qti.qms.service.trustzoneaccess
-com.qualcomm.qti.remoteSimlockAuth
-com.qualcomm.qti.ridemodeaudio
-com.qualcomm.qti.server.qtiwifi
-com.qualcomm.qti.services.systemhelper
-com.qualcomm.qti.simcontacts
-com.qualcomm.qti.trustedui
-com.qualcomm.qti.uim
-com.qualcomm.qti.uimGbaApp
-com.qualcomm.qti.xrcb
-com.qualcomm.qti.xrvd.service
-com.qualcomm.uimremoteclient
-com.qualcomm.uimremoteserver
-com.quicinc.voice.activation
-com.rongcard.eid
-com.trustonic.teeservice
-com.wdstechnology.android.kryten
+# ==============================================================================
+# DO NOT UNINSTALL - PROTECTED XIAOMI & ANDROID SYSTEM PACKAGES
+# Whitelist of packages that will NEVER be uninstalled by the debloat script.
+# ==============================================================================
+# HOW TO USE THIS FILE:
+# - Packages are grouped by functional category.
+# - Each package includes its PURPOSE and the concrete EFFECTS OF REMOVAL.
+# - To keep a package: remove it from safetouninstall.txt or add it to donotuninstall.txt.
+# - Lines starting with '#' and blank lines are ignored by the debloat checker.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# SECTION: 1. Xiaomi Account, Mi Cloud, Device Sync & Find Device
+# Services required for Xiaomi Account authentication, cloud backup/sync, device tracking, and push notifications.
+# ------------------------------------------------------------------------------
+
+# Package: com.xiaomi.account
+# Purpose: Xiaomi Account login, session authentication, and account profile management.
+# Effect of removal: Cannot log into or manage Xiaomi Account; disables all Xiaomi services dependent on account login.
 com.xiaomi.account
-com.xiaomi.aiasst.vision
-com.xiaomi.aicr
-com.xiaomi.aon
-com.xiaomi.barrage
-com.xiaomi.bluetooth
-com.xiaomi.calendar
-com.xiaomi.cameratools
+
+# Package: com.xiaomi.finddevice
+# Purpose: Xiaomi Find Device service for remotely locating, locking, or wiping a lost device.
+# Effect of removal: Disables Find Device tracking; if simactivate is missing, triggers 'Find device storage corrupted' warning.
 com.xiaomi.finddevice
-com.xiaomi.market
-com.xiaomi.metoknlp
-com.xiaomi.micloud.sdk
-com.xiaomi.mirror
-com.xiaomi.mtb
-com.xiaomi.powerchecker
-com.xiaomi.scanner
+
+# Package: com.xiaomi.simactivate.service
+# Purpose: Xiaomi SIM activation and carrier token verification service.
+# Effect of removal: Breaks Xiaomi Account SIM verification and causes 'Find device storage is corrupted' alert.
 com.xiaomi.simactivate.service
+
+# Package: com.xiaomi.trustservice
+# Purpose: Xiaomi Trust Service managing cryptographic device authentication for Mi Account.
+# Effect of removal: May cause security verification issues with Xiaomi Cloud and Account.
 com.xiaomi.trustservice
+
+# Package: com.xiaomi.xmsf
+# Purpose: Xiaomi Service Framework (XMSF), providing push notification infrastructure and account connectivity.
+# Effect of removal: Breaks Xiaomi push notifications, account background sync, and themes licensing.
 com.xiaomi.xmsf
+
+# Package: com.xiaomi.xmsfkeeper
+# Purpose: Guardian watchdog service ensuring Xiaomi Service Framework remains active in memory.
+# Effect of removal: Xiaomi push notifications and sync may become inconsistent or delayed.
 com.xiaomi.xmsfkeeper
-org.ifaa.aidl.manager
+
+# Package: com.miui.cloudservice
+# Purpose: Core Xiaomi Cloud service managing cloud synchronization for photos, contacts, call history, and notes.
+# Effect of removal: Breaks Xiaomi Cloud sync and backup; cloud settings will fail or crash.
+com.miui.cloudservice
+
+# Package: com.miui.cloudservice.sysbase
+# Purpose: Underlying system framework for Xiaomi Cloud services and account background workers.
+# Effect of removal: Disables background cloud sync tasks; may cause Xiaomi Cloud app errors.
+com.miui.cloudservice.sysbase
+
+# Package: com.miui.cloudbackup
+# Purpose: Xiaomi Cloud backup manager for device settings, home screen layout, and app data.
+# Effect of removal: Prevents backing up or restoring phone settings to/from Xiaomi Cloud.
+com.miui.cloudbackup
+
+# Package: com.miui.micloudsync
+# Purpose: Xiaomi Cloud sync adapter integrating Xiaomi apps with Cloud storage.
+# Effect of removal: Disables auto-synchronization between local apps and Xiaomi Cloud account.
+com.miui.micloudsync
+
+# Package: com.xiaomi.micloud.sdk
+# Purpose: Xiaomi Cloud client SDK used by internal system apps to communicate with Mi Cloud servers.
+# Effect of removal: Causes crashes or sync failures in any Xiaomi app relying on Cloud features.
+com.xiaomi.micloud.sdk
+
+# Package: com.miui.newmidrive
+# Purpose: Mi Drive (Xiaomi Cloud Drive) file storage and document cloud synchronization client.
+# Effect of removal: Removes Mi Drive integration; cannot access or upload files to Mi Drive.
+com.miui.newmidrive
+
+# ------------------------------------------------------------------------------
+# SECTION: 2. MIUI Security Center, Power Management & System Integrity
+# Core system controllers managing app permissions, battery optimization, and multitasking.
+# ------------------------------------------------------------------------------
+
+# Package: com.miui.securitycenter
+# Purpose: MIUI Security Center core app managing permissions, battery profiles, cleaner, and app locks.
+# Effect of removal: Critical system app. Removing causes bootloop, system crashes, or broken permissions management.
+com.miui.securitycenter
+
+# Package: com.miui.securityadd
+# Purpose: MIUI Security Center add-on module providing Game Turbo, Video Toolbox, and Second Space.
+# Effect of removal: Disables Game Turbo overlay, Video Toolbox, and Second Space features.
+com.miui.securityadd
+
+# Package: com.miui.securitycore
+# Purpose: Core background security services for MIUI Security Center.
+# Effect of removal: Breaks security center scans, app lock background protection, and permission enforcements.
+com.miui.securitycore
+
+# Package: com.miui.guardprovider
+# Purpose: Antivirus definitions provider (Avast/AVL) for MIUI Security app scanner.
+# Effect of removal: Disables built-in virus scanning in Security app; safe to remove if other antivirus is used, but keeps Security app happy.
+com.miui.guardprovider
+
+# Package: com.miui.cleaner
+# Purpose: Built-in MIUI cache and trash cleaner utility inside Security Center.
+# Effect of removal: Disables the trash cleaner shortcut and cleaning features inside Security app.
+com.miui.cleaner
+
+# Package: com.miui.powerkeeper
+# Purpose: MIUI Power Keeper managing aggressive background app battery optimization and sleep states.
+# Effect of removal: Disables MIUI battery management profiles; may increase idle battery drain or cause abnormal wakeups.
+com.miui.powerkeeper
+
+# Package: com.xiaomi.powerchecker
+# Purpose: Xiaomi Power Checker hardware power diagnostic and consumption monitor.
+# Effect of removal: Removes low-level power auditing and hardware battery diagnostic reporting.
+com.xiaomi.powerchecker
+
+# Package: com.lbe.security.miui
+# Purpose: Underlying LBE security engine managing granular Android runtime permissions for MIUI.
+# Effect of removal: May cause permission prompt errors, boot issues, or broken app privacy controls.
+com.lbe.security.miui
+
+# Package: com.miui.packageinstaller
+# Purpose: MIUI Package Installer verifying APK signatures and managing app installation.
+# Effect of removal: Cannot install APK files from file manager or browser without third-party installer.
+com.miui.packageinstaller
+
+# Package: com.miui.freeform
+# Purpose: Floating windows and split-screen multitasking manager in MIUI.
+# Effect of removal: Disables floating window shortcuts and split-screen features in recent apps.
+com.miui.freeform
+
+# Package: com.miui.home
+# Purpose: Default MIUI System Launcher managing home screen, app drawer, and system gesture animations.
+# Effect of removal: Do NOT remove unless a functional third-party launcher is installed; otherwise causes black screen.
+com.miui.home
+
+# Package: com.miui.contentcatcher
+# Purpose: MIUI Content Catcher scanning on-screen content for quick actions and clipboard helper.
+# Effect of removal: Disables smart on-screen text selection and context actions.
+com.miui.contentcatcher
+
+# Package: com.miui.hybrid
+# Purpose: Quick Apps (Quick App Engine) framework running lightweight instant web apps.
+# Effect of removal: Disables Xiaomi Quick Apps; cannot run lightweight mini-apps.
+com.miui.hybrid
+
+# Package: com.miui.hybrid.accessory
+# Purpose: Accessory engine and runtime dependencies for Xiaomi Quick Apps.
+# Effect of removal: Breaks accessories and components relying on Quick App integration.
+com.miui.hybrid.accessory
+
+# ------------------------------------------------------------------------------
+# SECTION: 3. Camera, Gallery, Audio Enhancements & Multimedia Editing
+# Stock MIUI camera app, gallery photo viewer, image/video editing tools, and sound enhancements.
+# ------------------------------------------------------------------------------
+
+# Package: com.android.camera
+# Purpose: Stock MIUI Camera app tailored with device-specific sensor calibrations, Leica/HDR modes, and 4K video.
+# Effect of removal: Removes primary camera app; third-party cameras may lack auxiliary lens and specific sensor features.
+com.android.camera
+
+# Package: com.android.cameraextensions
+# Purpose: Camera2 API OEM vendor extensions for Night mode, HDR, Bokeh, and Beauty filters.
+# Effect of removal: Third-party apps cannot use native night mode or hardware camera post-processing extensions.
+com.android.cameraextensions
+
+# Package: com.xiaomi.cameratools
+# Purpose: Hardware camera utility calibrations and Xiaomi camera auxiliary tools.
+# Effect of removal: May break advanced camera features, macro mode, or ultra-wide lens switching.
+com.xiaomi.cameratools
+
+# Package: com.miui.gallery
+# Purpose: MIUI Gallery app with album organization, trash bin, cloud sync, and on-device photo search.
+# Effect of removal: Removes default photo viewer; image editing and photo sharing shortcuts from camera app fail.
+com.miui.gallery
+
+# Package: com.miui.mediaeditor
+# Purpose: MIUI Gallery Media Editor providing photo filters, sky replacement, object eraser, and markup.
+# Effect of removal: Disables 'Edit' button in Gallery; cannot use AI sky replacement or eraser tools.
+com.miui.mediaeditor
+
+# Package: com.miuix.editor
+# Purpose: MIUIX extended photo and video editing component for gallery and camera.
+# Effect of removal: Disables advanced video cropping, filters, and photo adjustments.
+com.miuix.editor
+
+# Package: com.miui.extraphoto
+# Purpose: Extra photo processing module supporting dynamic shots, motion photos, and dual-camera depth data.
+# Effect of removal: Breaks motion photo playback and portrait depth re-focusing.
+com.miui.extraphoto
+
+# Package: com.miui.screenshot
+# Purpose: MIUI Screenshot utility supporting 3-finger swipe, scrolling screenshots, and quick markup.
+# Effect of removal: Disables scrolling screenshots, three-finger gesture capture, and quick screenshot toolbar.
+com.miui.screenshot
+
+# Package: com.miui.screenrecorder
+# Purpose: MIUI Screen Recorder recording high-fps screen capture with internal audio recording.
+# Effect of removal: Removes screen recorder quick tile and internal audio capture.
+com.miui.screenrecorder
+
+# Package: com.android.soundrecorder
+# Purpose: MIUI Sound Recorder supporting call recording playback and high-quality voice memos.
+# Effect of removal: Removes native voice recording app; call recording review may fail.
+com.android.soundrecorder
+
+# Package: com.miui.misound
+# Purpose: Mi Sound Enhancer providing headphone audio profiles, Hi-Fi DAC settings, and equalizer.
+# Effect of removal: Disables sound effects menu in Settings; headphones revert to flat audio without tuning.
+com.miui.misound
+
+# Package: com.miui.audioeffect
+# Purpose: Underlying audio effects DSP processing engine for MIUI audio enhancements.
+# Effect of removal: Disables Dolby Atmos / Mi Sound audio DSP processing and custom equalizer presets.
+com.miui.audioeffect
+
+# ------------------------------------------------------------------------------
+# SECTION: 4. Themes, Wallpapers, Always-On Display & System Styling
+# Wallpapers, live wallpapers, themes manager, and lock screen AOD clocks.
+# ------------------------------------------------------------------------------
+
+# Package: com.android.thememanager
+# Purpose: MIUI Themes app managing system themes, icons, lock screens, and custom fonts.
+# Effect of removal: Cannot apply or download themes, icons, or system fonts; theme settings will crash.
+com.android.thememanager
+
+# Package: com.miui.miwallpaper
+# Purpose: MIUI Wallpaper core framework managing static wallpapers and live lock screen backgrounds.
+# Effect of removal: Wallpaper picker will crash; cannot set lock screen or home screen backgrounds.
+com.miui.miwallpaper
+
+# Package: com.miui.miwallpaper.config.overlay
+# Purpose: Configuration overlay for MIUI Wallpaper engine.
+# Effect of removal: May cause theme wallpaper resolution or scaling glitches.
+com.miui.miwallpaper.config.overlay
+
+# Package: com.miui.miwallpaper.overlay
+# Purpose: System overlay mapping wallpapers to MIUI display themes.
+# Effect of removal: Restricts wallpaper theming options in settings.
+com.miui.miwallpaper.overlay
+
+# Package: com.miui.miwallpaper.overlay.customize
+# Purpose: Customization overlay for MIUI wallpaper options.
+# Effect of removal: Disables wallpaper customization options.
+com.miui.miwallpaper.overlay.customize
+
+# Package: com.miui.miwallpaper.earth
+# Purpose: Super Wallpaper Earth live lock screen and home screen 3D interactive wallpaper.
+# Effect of removal: Removes Earth Super Wallpaper option.
+com.miui.miwallpaper.earth
+
+# Package: com.miui.miwallpaper.mars
+# Purpose: Super Wallpaper Mars live lock screen and home screen 3D interactive wallpaper.
+# Effect of removal: Removes Mars Super Wallpaper option.
+com.miui.miwallpaper.mars
+
+# Package: com.miui.aod
+# Purpose: MIUI Always-on Display managing clock styles, notifications, and animations on AMOLED screens.
+# Effect of removal: Disables Always-on Display on lock screen.
+com.miui.aod
+
+# Package: com.android.wallpaperpicker
+# Purpose: Android standard wallpaper picker provider.
+# Effect of removal: Disables standard wallpaper picker dialogs.
+com.android.wallpaperpicker
+
+# Package: com.android.wallpaper.livepicker
+# Purpose: Live wallpaper selector engine allowing selection of animated wallpapers.
+# Effect of removal: Cannot set or preview live wallpapers.
+com.android.wallpaper.livepicker
+
+# Package: com.miui.wallpaper.overlay
+# Purpose: MIUI system wallpaper theme resource overlay.
+# Effect of removal: Resets wallpaper system styling to default AOSP.
+com.miui.wallpaper.overlay
+
+# Package: com.miui.wallpaper.overlay.customize
+# Purpose: MIUI wallpaper theme customization resource overlay.
+# Effect of removal: Wallpaper theme color matching may stop working.
+com.miui.wallpaper.overlay.customize
+
+# Package: com.miui.android.fashiongallery
+# Purpose: Lock screen wallpaper carousel / Glance background engine.
+# Effect of removal: Disables automatic cycling of lock screen wallpapers and sponsored stories.
+com.miui.android.fashiongallery
+
+# ------------------------------------------------------------------------------
+# SECTION: 5. Essential Xiaomi Apps, Utilities & Diagnostic Tools
+# Stock utility apps including Calculator, Compass, Weather, Notes, QR Scanner, and Hardware CIT.
+# ------------------------------------------------------------------------------
+
+# Package: com.miui.calculator
+# Purpose: MIUI Calculator with currency converter, unit conversions, mortgage, and scientific modes.
+# Effect of removal: Removes built-in calculator application.
+com.miui.calculator
+
+# Package: com.miui.compass
+# Purpose: MIUI Compass with magnetic heading, level meter, and GPS altitude coordinates.
+# Effect of removal: Removes built-in compass application.
+com.miui.compass
+
+# Package: com.miui.weather2
+# Purpose: MIUI Weather app providing multi-day forecast, air quality index, and widget updates.
+# Effect of removal: Removes built-in weather app and home screen weather widget updates.
+com.miui.weather2
+
+# Package: com.miui.notes
+# Purpose: MIUI Notes app supporting voice notes, tasks, mind maps, and Cloud sync.
+# Effect of removal: Removes built-in notes app; notes synced to Xiaomi Cloud become inaccessible locally.
+com.miui.notes
+
+# Package: com.miui.qr
+# Purpose: MIUI QR and barcode scanning engine integrated into camera and quick settings.
+# Effect of removal: Camera app cannot automatically recognize QR codes without an external scanner.
+com.miui.qr
+
+# Package: com.xiaomi.scanner
+# Purpose: Xiaomi Scanner app providing document scanner, OCR, business card scanning, and QR reader.
+# Effect of removal: Removes dedicated scanner shortcut and document scanning features.
+com.xiaomi.scanner
+
+# Package: com.xiaomi.calendar
+# Purpose: MIUI Calendar app supporting holidays, schedule reminders, and Xiaomi account sync.
+# Effect of removal: Removes native calendar app and status bar calendar events.
+com.xiaomi.calendar
+
+# Package: com.android.calendar
+# Purpose: Android calendar data provider and calendar synchronization framework.
+# Effect of removal: Calendar apps cannot read or store local calendar events.
+com.android.calendar
+
+# Package: com.mi.android.globalFileexplorer
+# Purpose: MIUI File Manager with categorization, FTP server, Mi Drop, and ZIP extraction.
+# Effect of removal: Cannot browse internal storage or manage downloads without a third-party file manager.
+com.mi.android.globalFileexplorer
+
+# Package: com.mi.health
+# Purpose: Mi Health / Heart Rate monitoring service utilizing camera/flashlight sensor.
+# Effect of removal: Disables heart rate measurement and step tracking features.
+com.mi.health
+
+# Package: com.mi.healthglobal
+# Purpose: Xiaomi Health Global fitness tracking, sleep tracking, and wearable device sync.
+# Effect of removal: Disables fitness tracking and Xiaomi wearable health sync.
+com.mi.healthglobal
+
+# Package: com.duokan.phone.remotecontroller
+# Purpose: Mi Remote controller utilizing the phone's built-in IR blaster to control TVs and ACs.
+# Effect of removal: Cannot use the phone as an infrared remote control for home appliances.
+com.duokan.phone.remotecontroller
+
+# Package: com.miui.touchassistant
+# Purpose: Quick Ball (Touch Assistant) floating navigation ball with customizable shortcuts.
+# Effect of removal: Removes Quick Ball accessibility shortcut menu.
+com.miui.touchassistant
+
+# Package: com.miui.backup
+# Purpose: MIUI Local Backup & Restore tool for backing up apps and SMS to computer or SD card.
+# Effect of removal: Cannot create or restore local system backups in Settings > Backup & Restore.
+com.miui.backup
+
+# Package: com.miui.cit
+# Purpose: Hardware diagnostic and factory test menu (*#*#6484#*#*) for testing screen, mic, and sensors.
+# Effect of removal: Cannot access hardware diagnostic test menu (*#*#6484#*#*).
+com.miui.cit
+
+# Package: com.xiaomi.market
+# Purpose: GetApps (Xiaomi App Mall) updating preinstalled system apps and MIUI components.
+# Effect of removal: System apps will not receive automatic component updates from Xiaomi.
+com.xiaomi.market
+
+# Package: com.android.email
+# Purpose: Stock Xiaomi/AOSP email application.
+# Effect of removal: Removes stock email client; use Gmail or Outlook instead.
+com.android.email
+
+# ------------------------------------------------------------------------------
+# SECTION: 6. Xiaomi Interconnectivity, Mi Share & Wireless Casting
+# Cross-device file sharing, screen mirroring (MIUI+), Bluetooth fast pair, and casting.
+# ------------------------------------------------------------------------------
+
+# Package: com.milink.service
+# Purpose: Mi Link service powering wireless display casting to Xiaomi TVs and laptops.
+# Effect of removal: Disables screen casting to Xiaomi smart screens and PC interconnectivity.
+com.milink.service
+
+# Package: com.miui.mishare.connectivity
+# Purpose: Mi Share protocol service enabling rapid high-speed wireless transfers with Xiaomi, OPPO, and Vivo devices.
+# Effect of removal: Disables Mi Share quick tile and wireless file sharing with nearby phones.
+com.miui.mishare.connectivity
+
+# Package: com.xiaomi.mi_connect_service
+# Purpose: Xiaomi Mi Connect Service powering device discovery, Mi Share, and Xiaomi IoT ecosystem pairing.
+# Effect of removal: Disables automatic pop-up detection and fast interconnection with nearby Xiaomi phones, TVs, and tablets.
+com.xiaomi.mi_connect_service
+
+# Package: com.xiaomi.mirror
+# Purpose: MIUI+ / Xiaomi Mirror service allowing screen mirroring and clipboard sharing with computers.
+# Effect of removal: Disables screen mirroring and multi-screen collaboration with PCs.
+com.xiaomi.mirror
+
+# Package: com.xiaomi.bluetooth
+# Purpose: Xiaomi Bluetooth proprietary extensions for fast pairing with Mi Buds and headphones.
+# Effect of removal: Disables pop-up fast pairing animations and battery status for Xiaomi headphones.
+com.xiaomi.bluetooth
+
+# Package: com.xiaomi.mtb
+# Purpose: Xiaomi Media Transfer Bridge utility for multi-device media sharing.
+# Effect of removal: Reduces cross-device media transfer capabilities.
+com.xiaomi.mtb
+
+# Package: com.android.bluetooth
+# Purpose: Android Bluetooth core stack and device connection management.
+# Effect of removal: Critical. Breaks all Bluetooth audio, file transfers, and device pairings.
+com.android.bluetooth
+
+# Package: com.android.bluetoothmidiservice
+# Purpose: Bluetooth MIDI protocol service for musical instruments.
+# Effect of removal: Cannot connect Bluetooth MIDI musical keyboards or devices.
+com.android.bluetoothmidiservice
+
+# Package: com.android.bluetooth.overlay
+# Purpose: Resource overlay for Android Bluetooth stack on MIUI.
+# Effect of removal: May cause visual or theme glitches in Bluetooth settings.
+com.android.bluetooth.overlay
+
+# ------------------------------------------------------------------------------
+# SECTION: 7. Telephony, Cellular Radio, SIM & Emergency Services
+# Core phone calls, emergency alerts, SIM toolkit, and SMS database providers.
+# ------------------------------------------------------------------------------
+
+# Package: com.android.phone
+# Purpose: Core Phone / Telephony process managing cellular radio, incoming calls, and USSD codes.
+# Effect of removal: Critical. Breaks phone calls, cellular connectivity, and mobile signal.
+com.android.phone
+
+# Package: com.android.phone.common.overlay.miui
+# Purpose: MIUI resource overlay for Phone dialer components.
+# Effect of removal: Disables MIUI customized call interface styling.
+com.android.phone.common.overlay.miui
+
+# Package: com.android.phone.overlay.miui
+# Purpose: MIUI system overlay for cellular telephony options.
+# Effect of removal: May break SIM card and dual-SIM settings menus.
+com.android.phone.overlay.miui
+
+# Package: com.miui.phone.carriers.overlay.h3g
+# Purpose: Carrier customization overlay for 3 (Three / Hutchison) network configurations.
+# Effect of removal: Removes carrier-specific APN and network optimizations for Hutchison.
+com.miui.phone.carriers.overlay.h3g
+
+# Package: com.miui.phone.carriers.overlay.vodafone
+# Purpose: Carrier customization overlay for Vodafone network configurations.
+# Effect of removal: Removes carrier-specific APN and network optimizations for Vodafone.
+com.miui.phone.carriers.overlay.vodafone
+
+# Package: com.android.providers.telephony
+# Purpose: Telephony database storing SMS, MMS, APNs, and carrier configurations.
+# Effect of removal: Critical. Cannot store or send SMS/MMS; mobile data APNs will not load.
+com.android.providers.telephony
+
+# Package: com.android.calllogbackup
+# Purpose: Call log backup and restore provider.
+# Effect of removal: Call logs cannot be backed up to Google or cloud accounts.
+com.android.calllogbackup
+
+# Package: com.android.cellbroadcastreceiver
+# Purpose: Emergency Cell Broadcast receiver displaying amber alerts, earthquake, and flood warnings.
+# Effect of removal: Device will not receive government emergency broadcasts or disaster alerts.
+com.android.cellbroadcastreceiver
+
+# Package: com.android.cellbroadcastreceiver.overlay.common
+# Purpose: Resource overlay for Emergency Broadcast receiver.
+# Effect of removal: Glitches in emergency alert notification presentation.
+com.android.cellbroadcastreceiver.overlay.common
+
+# Package: com.android.simappdialog
+# Purpose: SIM Toolkit user dialog prompt handler.
+# Effect of removal: Cannot display SIM operator popups or STK menu prompts.
+com.android.simappdialog
+
+# Package: com.android.stk.overlay.miui
+# Purpose: SIM Toolkit resource overlay for MIUI.
+# Effect of removal: Theme styling for SIM operator menu is disabled.
+com.android.stk.overlay.miui
+
+# Package: com.android.incallui.overlay
+# Purpose: Resource overlay for incoming call screen display.
+# Effect of removal: May cause graphical glitches during active phone calls.
+com.android.incallui.overlay
+
+# Package: com.qualcomm.embms
+# Purpose: Qualcomm LTE Broadcast (eMBMS) service for carrier multicast data.
+# Effect of removal: Disables LTE broadcast reception (rarely used outside specific carrier tests).
+com.qualcomm.embms
+
+# ------------------------------------------------------------------------------
+# SECTION: 8. Core Android Framework, SystemUI & Essential Overlays
+# Low-level Android OS framework components, status bar, storage manager, and settings databases.
+# ------------------------------------------------------------------------------
+
+# Package: com.android.providers.settings
+# Purpose: System settings database storing device preferences, Wi-Fi keys, and toggles.
+# Effect of removal: Critical system service. Phone will fail to boot or constantly crash.
+com.android.providers.settings
+
+# Package: com.android.providers.settings.overlay
+# Purpose: Resource overlay for settings provider on MIUI.
+# Effect of removal: May cause default settings keys to fail loading.
+com.android.providers.settings.overlay
+
+# Package: com.android.providers.userdictionary
+# Purpose: User personal typing dictionary database.
+# Effect of removal: Keyboards cannot save custom words or personal shortcuts.
+com.android.providers.userdictionary
+
+# Package: com.android.storagemanager
+# Purpose: System Storage Manager managing internal storage allocations and file permissions.
+# Effect of removal: Settings > Storage will malfunction and app file access permissions may glitch.
+com.android.storagemanager
+
+# Package: com.android.keychain
+# Purpose: Android KeyChain service securely storing SSL certificates and private keys.
+# Effect of removal: Apps and browsers cannot establish secure HTTPS connections or load client certificates.
+com.android.keychain
+
+# Package: com.android.location.fused
+# Purpose: Fused Location Provider combining GPS, Wi-Fi, and cellular towers for location.
+# Effect of removal: Critical for location services. Location detection in apps becomes slow or nonfunctional.
+com.android.location.fused
+
+# Package: com.android.captiveportallogin
+# Purpose: Captive portal login browser opening Wi-Fi login pages at hotels, cafes, and airports.
+# Effect of removal: Cannot log into public Wi-Fi networks requiring a browser sign-in page.
+com.android.captiveportallogin
+
+# Package: com.android.htmlviewer
+# Purpose: System HTML viewer displaying local HTML files and privacy policies.
+# Effect of removal: Cannot view local HTML documents or offline license agreements.
+com.android.htmlviewer
+
+# Package: com.android.printspooler
+# Purpose: Android Print Spooler managing wireless printing to Wi-Fi printers and PDF exports.
+# Effect of removal: Cannot print documents or save webpages as PDF files from system apps.
+com.android.printspooler
+
+# Package: com.android.updater
+# Purpose: MIUI System Updater checking and downloading official OTA system updates.
+# Effect of removal: Cannot check for or install MIUI OTA software updates through Settings.
+com.android.updater
+
+# Package: com.android.vpndialogs
+# Purpose: System VPN permission confirmation dialog displayed when activating VPN apps.
+# Effect of removal: Cannot approve or activate third-party VPN connections (WireGuard, OpenVPN, etc.).
+com.android.vpndialogs
+
+# Package: com.android.systemui.accessibility.accessibilitymenu
+# Purpose: Accessibility menu shortcuts for one-handed operation.
+# Effect of removal: Disables accessibility floating shortcut buttons.
+com.android.systemui.accessibility.accessibilitymenu
+
+# Package: com.android.systemui.gesture.line.overlay
+# Purpose: Full screen gesture indicator line overlay at the bottom of the screen.
+# Effect of removal: Removes or glitches the navigation gesture bar indicator.
+com.android.systemui.gesture.line.overlay
+
+# Package: com.android.systemui.overlay.common
+# Purpose: Common resource overlay for Android SystemUI.
+# Effect of removal: Disables system UI theme configurations.
+com.android.systemui.overlay.common
+
+# Package: com.android.systemui.overlay.miui
+# Purpose: MIUI resource overlay for SystemUI status bar, control center, and notifications.
+# Effect of removal: Disables MIUI customized status bar and control center styling.
+com.android.systemui.overlay.miui
+
+# Package: com.miui.systemui.carriers.overlay
+# Purpose: MIUI carrier status bar display configuration overlay.
+# Effect of removal: Carrier label display in status bar reverts to default.
+com.miui.systemui.carriers.overlay
+
+# Package: com.miui.settings.rro.device.hide.statusbar.overlay
+# Purpose: Runtime Resource Overlay for notch / hole-punch display hiding option.
+# Effect of removal: Cannot use the 'Hide Notch' feature in Display settings.
+com.miui.settings.rro.device.hide.statusbar.overlay
+
+# Package: com.miui.settings.rro.device.type.overlay
+# Purpose: Device type identification overlay configuring tablet/phone layout.
+# Effect of removal: Settings layout may not match device form factor.
+com.miui.settings.rro.device.type.overlay
+
+# Package: com.miui.system.overlay
+# Purpose: MIUI system-wide theme and color resource overlay.
+# Effect of removal: System icons and themes may glitch.
+com.miui.system.overlay
+
+# Package: com.android.settings.overlay.miui
+# Purpose: MIUI customized settings menu resource overlay.
+# Effect of removal: Breaks MIUI customized settings layout.
+com.android.settings.overlay.miui
+
+# Package: com.android.inputsettings.overlay.miui
+# Purpose: Input and keyboard settings resource overlay for MIUI.
+# Effect of removal: Keyboard language and input preferences menu may crash.
+com.android.inputsettings.overlay.miui
+
+# Package: com.miui.accessibility
+# Purpose: MIUI Accessibility suite enhancements and accessibility service bridge.
+# Effect of removal: Disables MIUI-specific accessibility options, visual enhancements, and haptic aids.
+com.miui.accessibility
+
+# Package: com.android.angle
+# Purpose: ANGLE graphics layer translating WebGL/OpenGL calls to Vulkan.
+# Effect of removal: May reduce 3D performance in apps utilizing Vulkan translation.
+com.android.angle
+
+# Package: com.android.cts.ctsshim
+# Purpose: Android Compatibility Test Suite system verification shim.
+# Effect of removal: Safe to leave; used for system CTS compliance.
+com.android.cts.ctsshim
+
+# Package: com.android.traceur
+# Purpose: System tracing utility in Developer Options for recording performance traces.
+# Effect of removal: Cannot capture system performance traces for debugging.
+com.android.traceur
+
+# Package: com.android.rkpdapp
+# Purpose: Remote Key Provisioning Daemon managing hardware keystore attestation.
+# Effect of removal: May cause banking apps or hardware keystore authentication to fail.
+com.android.rkpdapp
+
+# Package: com.android.role.notes.enabled
+# Purpose: Android default notes app role configuration.
+# Effect of removal: Cannot set a default notes application in system settings.
+com.android.role.notes.enabled
+
+# Package: com.android.theme.font.notoserifsource
+# Purpose: Noto Serif Source system font package.
+# Effect of removal: Removes serif font variant from available system typography.
+com.android.theme.font.notoserifsource
+
+# Package: com.android.uwb.resources
+# Purpose: Ultra-Wideband (UWB) resource package for spatial tracking.
+# Effect of removal: Disables UWB hardware features if device supports UWB.
+com.android.uwb.resources
+
+# Package: com.android.virtualmachine.res
+# Purpose: Android Virtualization Framework system resources.
+# Effect of removal: Disables virtualization runtime features.
+com.android.virtualmachine.res
+
+# Package: com.android.microdroid.empty_payload
+# Purpose: Android microdroid isolated virtualization container placeholder.
+# Effect of removal: Disables isolated virtualization sandboxing.
+com.android.microdroid.empty_payload
+
+# Package: com.android.managedprovisioning.overlay
+# Purpose: Work profile / enterprise device management resource overlay.
+# Effect of removal: May glitch work profile and enterprise administration setup.
+com.android.managedprovisioning.overlay
+
+# Package: com.android.networkstack.tethering.inprocess.overlay
+# Purpose: Resource overlay for Wi-Fi hotspot and USB tethering.
+# Effect of removal: May cause errors when enabling Wi-Fi Hotspot or USB tethering.
+com.android.networkstack.tethering.inprocess.overlay
+
+# Package: android.aosp.overlay
+# Purpose: AOSP baseline resource overlay.
+# Effect of removal: May cause framework theme inconsistencies.
+android.aosp.overlay
+
+# Package: android.autoinstalls.config.Xiaomi.model
+# Purpose: Xiaomi model configuration file for initial carrier setup.
+# Effect of removal: Prevents model-specific initial setup overrides.
+android.autoinstalls.config.Xiaomi.model
+
+# Package: android.qvaoverlay.common
+# Purpose: Qualcomm Vendor Architecture common overlay.
+# Effect of removal: May affect Qualcomm chipset visual enhancements.
+android.qvaoverlay.common
+
+# Package: com.android.internal.display.cutout.emulation.corner
+# Purpose: Developer option display cutout simulation for corner notch.
+# Effect of removal: Disables corner display cutout emulation in Developer Options.
+com.android.internal.display.cutout.emulation.corner
+
+# Package: com.android.internal.display.cutout.emulation.waterfall
+# Purpose: Developer option display cutout simulation for waterfall screen edge.
+# Effect of removal: Disables waterfall display emulation in Developer Options.
+com.android.internal.display.cutout.emulation.waterfall
+
+# Package: com.android.internal.systemui.navbar.gestural_extra_wide_back
+# Purpose: Full-screen gesture back swipe sensitivity tuning overlay.
+# Effect of removal: Disables extra-wide back gesture edge detection.
+com.android.internal.systemui.navbar.gestural_extra_wide_back
+
+# ------------------------------------------------------------------------------
+# SECTION: 9. Google Core Services, Gboard, Speech TTS & Play Store
+# Google Play services, Gboard on-screen keyboard, speech synthesis, and app store components.
+# ------------------------------------------------------------------------------
+
+# Package: com.android.vending
+# Purpose: Google Play Store app downloading, purchasing, and updating applications.
+# Effect of removal: Critical for Google apps. Cannot download or update apps from Google Play.
+com.android.vending
+
+# Package: com.google.android.gms
+# Purpose: Google Play Services providing Google account login, push notifications, maps, and APIs.
+# Effect of removal: Critical for Google ecosystem. All Google apps and Play Services APIs will fail.
+com.google.android.gms
+
+# Package: com.google.android.inputmethod.latin
+# Purpose: Gboard - Google Keyboard with glide typing, voice dictation, and multilingual support.
+# Effect of removal: Removes primary keyboard; phone will have no on-screen keyboard unless another is installed.
+com.google.android.inputmethod.latin
+
+# Package: com.google.android.tts
+# Purpose: Google Text-to-Speech engine converting written text to spoken voice for screen readers and navigation.
+# Effect of removal: Disables voice guidance in Google Maps and speech synthesis in translation apps.
+com.google.android.tts
+
+# Package: com.google.android.apps.restore
+# Purpose: Google Data Restore tool transferring apps, photos, and messages during device setup.
+# Effect of removal: Cannot restore Google backup data during phone setup or migration.
+com.google.android.apps.restore
+
+# Package: com.google.android.apps.turbo
+# Purpose: Device Health Services predicting battery life and adjusting adaptive brightness.
+# Effect of removal: Disables adaptive battery predictions and intelligent brightness curves.
+com.google.android.apps.turbo
+
+# Package: com.google.android.configupdater
+# Purpose: Google Play system configuration background updater for timezones, certs, and security keys.
+# Effect of removal: Device will not receive automatic timezone and security certificate background updates.
+com.google.android.configupdater
+
+# Package: com.google.android.ext.services
+# Purpose: Android Extended Services providing smart text selection, notification ranking, and autofill.
+# Effect of removal: Disables smart contextual actions in notifications and text suggestions.
+com.google.android.ext.services
+
+# Package: com.google.android.modulemetadata
+# Purpose: Google Play System Update (Project Mainline) metadata module.
+# Effect of removal: May cause errors with Google Play system updates in Settings > About Phone.
+com.google.android.modulemetadata
+
+# Package: com.google.android.onetimeinitializer
+# Purpose: One-time setup initializer executed on first device boot.
+# Effect of removal: Only runs once on first boot; safe to leave untouched.
+com.google.android.onetimeinitializer
+
+# Package: com.google.android.safetycenter.resources
+# Purpose: Google Safety Center unified privacy and security dashboard resources.
+# Effect of removal: May glitch the unified Security & Privacy dashboard in Settings.
+com.google.android.safetycenter.resources
+
+# Package: com.google.android.projection.gearhead
+# Purpose: Android Auto service connecting the smartphone to car infotainment displays.
+# Effect of removal: Cannot connect the phone to your car for navigation, music, or hands-free calls via Android Auto.
+com.google.android.projection.gearhead
+
+# Package: com.google.android.apps.maps
+# Purpose: Google Maps GPS navigation, traffic reports, and local business discovery.
+# Effect of removal: Removes Google Maps navigation app.
+com.google.android.apps.maps
+
+# Package: com.google.android.apps.walletnfcrel
+# Purpose: Google Wallet (Google Pay) for contactless NFC payments and digital cards.
+# Effect of removal: Cannot make contactless NFC payments in stores using Google Pay.
+com.google.android.apps.walletnfcrel
+
+# Package: com.google.ar.core
+# Purpose: Google Play Services for AR (Augmented Reality) used by 3D apps and games.
+# Effect of removal: Apps relying on Augmented Reality (Measure, Pokemon GO, IKEA) will not work.
+com.google.ar.core
+
+# Package: com.google.android.soundpicker
+# Purpose: Google Sounds audio picker dialog for selecting ringtones and alarm sounds.
+# Effect of removal: System will use default MIUI sound picker instead of Google Sounds.
+com.google.android.soundpicker
+
+# Package: com.google.android.gms.location.history
+# Purpose: Google Location History (Timeline) tracking places visited.
+# Effect of removal: Disables Google Timeline recording in Google Maps.
+com.google.android.gms.location.history
+
+# Package: com.google.android.gms.supervision
+# Purpose: Google Family Link parental control supervision framework.
+# Effect of removal: Disables Google parental supervision on child accounts.
+com.google.android.gms.supervision
+
+# Package: com.google.android.accessibility.switchaccess
+# Purpose: Switch Access allowing users with motor impairments to control device using physical switches.
+# Effect of removal: Disables Switch Access accessibility feature.
+com.google.android.accessibility.switchaccess
+
+# Package: com.google.android.marvin.talkback
+# Purpose: Android Accessibility Suite / TalkBack screen reader for visually impaired users.
+# Effect of removal: Disables TalkBack spoken feedback accessibility.
+com.google.android.marvin.talkback
+
+# Package: com.google.android.as
+# Purpose: Android System Intelligence providing Live Caption, smart clipboard, and predictive app drawer.
+# Effect of removal: Disables Live Caption, notification action suggestions, and smart text copy.
+com.google.android.as
+
+# Package: com.google.android.as.oss
+# Purpose: Open-source support library for Android System Intelligence.
+# Effect of removal: May disable open-source components of Android System Intelligence.
+com.google.android.as.oss
+
+# Package: com.google.ambient.streaming
+# Purpose: Ambient streaming audio service for smart accessories.
+# Effect of removal: Disables ambient audio casting to supported Google smart devices.
+com.google.ambient.streaming
+
+# Package: com.google.android.adservices.api
+# Purpose: Google Privacy Sandbox AdServices API framework.
+# Effect of removal: Disables Privacy Sandbox advertising framework.
+com.google.android.adservices.api
+
+# Package: com.google.android.federatedcompute
+# Purpose: Google Federated Compute privacy-preserving on-device machine learning framework.
+# Effect of removal: Disables federated machine learning model training on device.
+com.google.android.federatedcompute
+
+# Package: com.google.android.ondevicepersonalization.services
+# Purpose: Google On-Device Personalization service tailoring recommendations without sending raw data.
+# Effect of removal: Disables on-device personalized content modeling.
+com.google.android.ondevicepersonalization.services
+
+# Package: com.google.mainline.adservices
+# Purpose: Mainline modular AdServices component updated via Google Play.
+# Effect of removal: Disables modular AdServices updates.
+com.google.mainline.adservices
+
+# Package: com.google.android.cellbroadcastreceiver.overlay.miui
+# Purpose: Google emergency broadcast MIUI integration overlay.
+# Effect of removal: May glitch emergency notification popups.
+com.google.android.cellbroadcastreceiver.overlay.miui
+
+# Package: com.google.android.cellbroadcastservice.overlay.miui
+# Purpose: Google emergency broadcast service MIUI integration overlay.
+# Effect of removal: May cause broadcast service presentation errors.
+com.google.android.cellbroadcastservice.overlay.miui
+
+# Package: com.google.android.overlay.gmsconfig.asi
+# Purpose: Google configuration overlay for Android System Intelligence.
+# Effect of removal: Disables OEM configurations for System Intelligence.
+com.google.android.overlay.gmsconfig.asi
+
+# Package: com.google.android.overlay.gmsconfig.common
+# Purpose: Common Google Play Services configuration overlay.
+# Effect of removal: Disables manufacturer customizations for Play Services.
+com.google.android.overlay.gmsconfig.common
+
+# Package: com.google.android.overlay.gmsconfig.comms
+# Purpose: Google communication services configuration overlay.
+# Effect of removal: May glitch Google Phone/Duo carrier integrations.
+com.google.android.overlay.gmsconfig.comms
+
+# Package: com.google.android.overlay.gmsconfig.geotz
+# Purpose: Google geographic timezone detection configuration overlay.
+# Effect of removal: Automatic network timezone updates may become inaccurate.
+com.google.android.overlay.gmsconfig.geotz
+
+# Package: com.google.android.overlay.gmsconfig.gsa
+# Purpose: Google Search App OEM configuration overlay.
+# Effect of removal: Disables manufacturer search bar customizations.
+com.google.android.overlay.gmsconfig.gsa
+
+# Package: com.google.android.overlay.gmsconfig.personalsafety
+# Purpose: Google Personal Safety configuration overlay.
+# Effect of removal: Disables OEM safety configurations.
+com.google.android.overlay.gmsconfig.personalsafety
+
+# Package: com.google.android.overlay.healthconnect
+# Purpose: Google Health Connect permission and data sync overlay.
+# Effect of removal: May glitch fitness app data synchronization with Health Connect.
+com.google.android.overlay.healthconnect
+
+# Package: com.google.android.overlay.modules.captiveportallogin.forframework
+# Purpose: Google Captive Portal Login framework integration overlay.
+# Effect of removal: May cause public Wi-Fi sign-in prompt failures.
+com.google.android.overlay.modules.captiveportallogin.forframework
+
+# Package: com.google.android.overlay.modules.documentsui
+# Purpose: Google Files / DocumentsUI framework integration overlay.
+# Effect of removal: May glitch standard file picker dialog in third-party apps.
+com.google.android.overlay.modules.documentsui
+
+# Package: com.google.android.overlay.modules.ext.services
+# Purpose: Google Extended Services framework integration overlay.
+# Effect of removal: May glitch smart contextual suggestions.
+com.google.android.overlay.modules.ext.services
+
+# Package: com.google.android.overlay.modules.modulemetadata.forframework
+# Purpose: Google Mainline module metadata framework overlay.
+# Effect of removal: Disables system module metadata mappings.
+com.google.android.overlay.modules.modulemetadata.forframework
+
+# Package: com.google.android.overlay.modules.permissioncontroller
+# Purpose: Google Permission Controller UI integration overlay.
+# Effect of removal: Disables OEM theme adjustments for permission dialogs.
+com.google.android.overlay.modules.permissioncontroller
+
+# Package: com.google.android.overlay.modules.permissioncontroller.forframework
+# Purpose: Google Permission Controller framework integration overlay.
+# Effect of removal: May glitch system runtime permission dialogs.
+com.google.android.overlay.modules.permissioncontroller.forframework
+
+# Package: com.android.overlay.gmscontactprovider
+# Purpose: Google Mobile Services (GMS) Contact Provider resource overlay for MIUI.
+# Effect of removal: Contacts synchronization between Google and MIUI may experience styling or field errors.
+com.android.overlay.gmscontactprovider
+
+# Package: com.android.overlay.gmssettingprovider
+# Purpose: Google Mobile Services (GMS) Settings Provider resource overlay for MIUI.
+# Effect of removal: May cause Google Settings synchronization issues.
+com.android.overlay.gmssettingprovider
+
+# Package: com.android.overlay.gmssettings
+# Purpose: Google Mobile Services (GMS) Settings menu resource integration overlay.
+# Effect of removal: Google account preferences inside Settings menu may glitch or display incorrectly.
+com.android.overlay.gmssettings
+
+# Package: com.android.overlay.gmstelecomm
+# Purpose: Google Mobile Services (GMS) Telecom framework resource overlay for MIUI.
+# Effect of removal: May cause carrier phone call routing issues between Google dialer components and MIUI.
+com.android.overlay.gmstelecomm
+
+# Package: com.android.overlay.gmstelephony
+# Purpose: Google Mobile Services (GMS) Telephony framework resource overlay for MIUI.
+# Effect of removal: May disrupt carrier SIM provisioning and Google cellular services integration.
+com.android.overlay.gmstelephony
+
+# ------------------------------------------------------------------------------
+# SECTION: 10. Hardware Chipset Drivers & Diagnostics (Qualcomm / MediaTek)
+# SoC low-level drivers, power rails, modem communication, and satellite positioning.
+# ------------------------------------------------------------------------------
+
+# Package: com.qti.dcf
+# Purpose: Qualcomm Device Configuration Framework managing modem and RF band parameters.
+# Effect of removal: May cause cellular modem initialization failures or missing network bands.
+com.qti.dcf
+
+# Package: com.qti.qcc
+# Purpose: Qualcomm Context Computing engine managing low-power sensor hub (accelerometer, gyro).
+# Effect of removal: Sensor hub features like lift-to-wake and step counter may fail or drain battery.
+com.qti.qcc
+
+# Package: com.qti.qualcomm.deviceinfo
+# Purpose: Qualcomm hardware device information provider.
+# Effect of removal: Diagnostic tools cannot read Qualcomm chipset hardware revisions.
+com.qti.qualcomm.deviceinfo
+
+# Package: com.qti.service.colorservice
+# Purpose: Qualcomm Display Color Service calibrating screen white point and color gamuts (sRGB/DCI-P3).
+# Effect of removal: Screen colors may appear washed out or display color profile menu will crash.
+com.qti.service.colorservice
+
+# Package: com.qti.xdivert
+# Purpose: Qualcomm Dual-SIM call divert manager routing calls between SIM 1 and SIM 2.
+# Effect of removal: Disables automatic call forwarding between SIM cards in dual-SIM mode.
+com.qti.xdivert
+
+# Package: com.qualcomm.atfwd
+# Purpose: Qualcomm AT Forwarding daemon routing cellular modem commands (Wi-Fi Calling / VoLTE).
+# Effect of removal: May break Wi-Fi Calling, VoLTE handovers, or modem diagnostics.
+com.qualcomm.atfwd
+
+# Package: com.qualcomm.atfwd2
+# Purpose: Qualcomm AT Forwarding daemon secondary instance for dual-SIM support.
+# Effect of removal: Dual-SIM modem AT command forwarding will fail.
+com.qualcomm.atfwd2
+
+# Package: com.qualcomm.location
+# Purpose: Qualcomm IZat / GNSS Location Provider enabling rapid GPS, GLONASS, and Galileo lock.
+# Effect of removal: GPS fix will be noticeably slower and consume significantly more battery.
+com.qualcomm.location
+
+# Package: com.qualcomm.qti.devicestatisticsservice
+# Purpose: Qualcomm hardware device performance statistics and power auditing service.
+# Effect of removal: Safe to leave; monitors low-level SoC performance.
+com.qualcomm.qti.devicestatisticsservice
+
+# Package: com.qualcomm.qti.performancemode
+# Purpose: Qualcomm CPU/GPU performance mode governor governor profiles.
+# Effect of removal: Performance mode in battery settings may fail to boost CPU clock speeds.
+com.qualcomm.qti.performancemode
+
+# Package: com.qualcomm.qti.powersavemode
+# Purpose: Qualcomm hardware power save mode optimizing SoC frequencies during low battery.
+# Effect of removal: Extreme battery saver mode cannot apply low-level Qualcomm power saving.
+com.qualcomm.qti.powersavemode
+
+# Package: com.qualcomm.qti.qcolor
+# Purpose: Qualcomm QColor display color calibration library.
+# Effect of removal: Display color gamut management and vivid color presets may glitch.
+com.qualcomm.qti.qcolor
+
+# Package: com.qualcomm.qti.qms.service.connectionsecurity
+# Purpose: Qualcomm Connection Security service securing Wi-Fi and cellular connections.
+# Effect of removal: May cause security handshake failures on enterprise Wi-Fi networks.
+com.qualcomm.qti.qms.service.connectionsecurity
+
+# Package: com.qualcomm.qti.qms.service.trustzoneaccess
+# Purpose: Qualcomm TrustZone secure execution access service for DRM and biometrics.
+# Effect of removal: Critical hardware service. Can break DRM, fingerprint reader, and secure boot.
+com.qualcomm.qti.qms.service.trustzoneaccess
+
+# Package: com.qualcomm.qti.remoteSimlockAuth
+# Purpose: Qualcomm Remote SIM Lock authentication service for carrier-locked devices.
+# Effect of removal: Carrier SIM unlock verification will fail on network-locked models.
+com.qualcomm.qti.remoteSimlockAuth
+
+# Package: com.qualcomm.qti.ridemodeaudio
+# Purpose: Qualcomm audio routing service for motorcycle and in-vehicle headsets.
+# Effect of removal: Audio routing to vehicle helmets and motorcycle intercoms may malfunction.
+com.qualcomm.qti.ridemodeaudio
+
+# Package: com.qualcomm.qti.server.qtiwifi
+# Purpose: Qualcomm Wi-Fi hardware abstraction server managing Wi-Fi radio configurations.
+# Effect of removal: Critical for Wi-Fi. Can cause Wi-Fi disconnection or failure to turn on Wi-Fi.
+com.qualcomm.qti.server.qtiwifi
+
+# Package: com.qualcomm.qti.services.systemhelper
+# Purpose: Qualcomm System Helper background service optimizing SoC power rails.
+# Effect of removal: SoC power state transitions may become unoptimized.
+com.qualcomm.qti.services.systemhelper
+
+# Package: com.qualcomm.qti.simcontacts
+# Purpose: Qualcomm SIM Contacts provider reading and writing contacts stored on the SIM card.
+# Effect of removal: Cannot import, view, or save contacts directly on the physical SIM card.
+com.qualcomm.qti.simcontacts
+
+# Package: com.qualcomm.qti.trustedui
+# Purpose: Qualcomm Trusted UI service rendering secure PIN and password screens in TrustZone.
+# Effect of removal: Critical security service. May cause black screen when entering lock screen PIN.
+com.qualcomm.qti.trustedui
+
+# Package: com.qualcomm.qti.uim
+# Purpose: Qualcomm User Identity Module managing physical SIM and eSIM card communication.
+# Effect of removal: Critical. SIM cards will not be detected by the phone.
+com.qualcomm.qti.uim
+
+# Package: com.qualcomm.qti.uimGbaApp
+# Purpose: Qualcomm UIM Generic Bootstrapping Architecture application for carrier cellular security.
+# Effect of removal: Carrier VoLTE/VoWiFi security token negotiation may fail.
+com.qualcomm.qti.uimGbaApp
+
+# Package: com.qualcomm.qti.xrcb
+# Purpose: Qualcomm Extended Reality (XR) companion service for smart glasses.
+# Effect of removal: Cannot connect to Qualcomm-based AR/VR smart glasses.
+com.qualcomm.qti.xrcb
+
+# Package: com.qualcomm.qti.xrvd.service
+# Purpose: Qualcomm Extended Reality video decoder service for VR headsets.
+# Effect of removal: Disables hardware XR video decoding.
+com.qualcomm.qti.xrvd.service
+
+# Package: com.qualcomm.uimremoteclient
+# Purpose: Qualcomm Remote SIM client service for remote SIM provisioning.
+# Effect of removal: Remote SIM management functions will fail.
+com.qualcomm.uimremoteclient
+
+# Package: com.qualcomm.uimremoteserver
+# Purpose: Qualcomm Remote SIM server service.
+# Effect of removal: Remote SIM server functions will fail.
+com.qualcomm.uimremoteserver
+
+# Package: com.quicinc.voice.activation
+# Purpose: Qualcomm Voice Activation low-power DSP hardware listener for voice wake words.
+# Effect of removal: Always-on voice wake words (OK Google) will consume significantly more battery.
+com.quicinc.voice.activation
+
+# Package: com.qti.diagservices
+# Purpose: Qualcomm Hardware Diagnostic and testing bridge service.
+# Effect of removal: Disables hardware diagnostic logging via USB PC connections.
+com.qti.diagservices
+
+# Package: com.qti.snapdragon.qdcm_ff
+# Purpose: Qualcomm Snapdragon Display Color Management tool.
+# Effect of removal: Disables hardware dynamic display color enhancement.
+com.qti.snapdragon.qdcm_ff
+
+# Package: com.mediatek.batterywarning
+# Purpose: MediaTek hardware battery over-voltage, temperature, and charging safety alerts.
+# Effect of removal: Disables hardware overheating and over-voltage emergency safety warnings.
+com.mediatek.batterywarning
+
+# Package: com.mediatek.callrecorder
+# Purpose: MediaTek native hardware call recording engine for voice calls.
+# Effect of removal: Disables automatic and manual phone call recording functionality.
+com.mediatek.callrecorder
+
+# Package: com.mediatek.capctrl.service
+# Purpose: MediaTek capacity control service managing CPU/GPU power budgeting.
+# Effect of removal: May cause suboptimal CPU frequency scaling and abnormal battery drain.
+com.mediatek.capctrl.service
+
+# Package: com.mediatek.engineermode
+# Purpose: MediaTek Engineer Mode diagnostic and hardware testing menu (*#*#3646633#*#*).
+# Effect of removal: Cannot access MediaTek hardware testing and cellular band locking menu.
+com.mediatek.engineermode
+
+# Package: com.mediatek.gbaservice
+# Purpose: MediaTek Generic Bootstrapping Architecture service for SIM cellular security.
+# Effect of removal: May break VoLTE, VoWiFi, or operator SIM authentication on MediaTek chips.
+com.mediatek.gbaservice
+
+# Package: com.mediatek.ims
+# Purpose: MediaTek IP Multimedia Subsystem enabling VoLTE, VoWiFi, and ViLTE HD calling.
+# Effect of removal: Critical on MediaTek devices. Breaks VoLTE and Wi-Fi Calling.
+com.mediatek.ims
+
+# Package: com.mediatek.lbs.em2.ui
+# Purpose: MediaTek Location Based Service engineer testing UI.
+# Effect of removal: Cannot test MediaTek GPS satellites in engineer mode.
+com.mediatek.lbs.em2.ui
+
+# Package: com.mediatek.location.lppe.main
+# Purpose: MediaTek LTE Positioning Protocol Extension for precise indoor and cellular location.
+# Effect of removal: May degrade GPS fix speed and indoor location accuracy.
+com.mediatek.location.lppe.main
+
+# Package: com.mediatek.location.mtkgeofence
+# Purpose: MediaTek hardware geofencing engine triggering low-power location alerts.
+# Effect of removal: Apps using geofencing will consume more battery to detect location boundaries.
+com.mediatek.location.mtkgeofence
+
+# Package: com.mediatek.mdmconfig
+# Purpose: MediaTek Modem configuration manager applying carrier-specific radio profiles.
+# Effect of removal: May cause mobile data disconnection or wrong carrier network bands.
+com.mediatek.mdmconfig
+
+# Package: com.mediatek.mdmlsample
+# Purpose: MediaTek modem logging and diagnostic sample service.
+# Effect of removal: Disables MediaTek modem diagnostics.
+com.mediatek.mdmlsample
+
+# Package: com.mediatek.miravision.ui
+# Purpose: MediaTek MiraVision display engine enhancing video sharpness, contrast, and color temperature.
+# Effect of removal: Disables MiraVision picture quality enhancements and color profile tuning.
+com.mediatek.miravision.ui
+
+# Package: com.mediatek.MtkSettingsResOverlay
+# Purpose: MediaTek Settings resource overlay for chipset settings menus.
+# Effect of removal: Chipset-specific settings options in Settings menu will be missing.
+com.mediatek.MtkSettingsResOverlay
+
+# Package: com.mediatek.SettingsProviderResOverlay
+# Purpose: MediaTek Settings Provider resource overlay.
+# Effect of removal: Hardware settings preferences may fail to initialize properly.
+com.mediatek.SettingsProviderResOverlay
+
+# Package: com.mediatek.voicecommand
+# Purpose: MediaTek hardware voice command recognition service.
+# Effect of removal: Disables hardware offline voice wake words.
+com.mediatek.voicecommand
+
+# Package: com.mediatek.voiceunlock
+# Purpose: MediaTek voice biometric unlock service.
+# Effect of removal: Disables unlocking device using voice recognition.
+com.mediatek.voiceunlock
+
+# Package: com.mediatek.ygps
+# Purpose: MediaTek YGPS satellite diagnostic and testing utility.
+# Effect of removal: Cannot test GPS satellite constellations in engineer mode.
+com.mediatek.ygps
+
+# Package: com.bsp.catchlog
+# Purpose: Board Support Package hardware error logging and kernel panic dump collector.
+# Effect of removal: Hardware error dumps will not be collected; safe to keep in protected list.
+com.bsp.catchlog
+
+# Package: com.debug.loggerui
+# Purpose: Developer Logger UI interface for capturing Android logcat and modem logs.
+# Effect of removal: Developer logging interface will not open.
+com.debug.loggerui
+
+# Package: com.modemdebug
+# Purpose: Cellular modem debugging and RF signal test capture service.
+# Effect of removal: Cannot capture raw modem RF signal traces for debugging.
+com.modemdebug
+
+# Package: com.wdstechnology.android.kryten
+# Purpose: WDS device configuration and diagnostic provisioning agent.
+# Effect of removal: Disables WDS device provisioning.
+com.wdstechnology.android.kryten
+
+# Package: vendor.qti.qesdk.sysservice
+# Purpose: Qualcomm Embedded SDK system background service.
+# Effect of removal: Disables Qualcomm OEM SDK integrations.
 vendor.qti.qesdk.sysservice
 
+# ------------------------------------------------------------------------------
+# SECTION: 11. Biometric Security, Keystore & Hardware Enclave (Fingerprint / Face)
+# Hardware keystore, optical fingerprint calibration, and TEE encryption.
+# ------------------------------------------------------------------------------
+
+# Package: com.qualcomm.qti.biometrics.fingerprint.service
+# Purpose: Qualcomm biometric fingerprint hardware integration service.
+# Effect of removal: Fingerprint sensor will stop responding; cannot unlock device with fingerprint.
+com.qualcomm.qti.biometrics.fingerprint.service
+
+# Package: com.goodix.fingerprint.setting
+# Purpose: Goodix under-display fingerprint sensor calibration and settings service.
+# Effect of removal: Under-display optical fingerprint scanner will fail to calibrate or read prints.
+com.goodix.fingerprint.setting
+
+# Package: com.fido.asm
+# Purpose: FIDO (Fast ID Online) Authenticator Specific Module for biometric web authentication.
+# Effect of removal: Cannot use fingerprint scanner for FIDO passwordless website logins.
+com.fido.asm
+
+# Package: com.rongcard.eid
+# Purpose: Electronic ID (eID) digital identity card verification service.
+# Effect of removal: Cannot use digital citizen eID cards (primarily used in China/Asia).
+com.rongcard.eid
+
+# Package: com.trustonic.teeservice
+# Purpose: Trustonic Trusted Execution Environment (TEE) hardware security service.
+# Effect of removal: Critical for security. Can break Widevine L1 HD streaming and banking apps.
+com.trustonic.teeservice
+
+# Package: org.ifaa.aidl.manager
+# Purpose: IFAA (Internet Finance Authentication Alliance) biometric authentication manager.
+# Effect of removal: Biometric fingerprint payments in financial and banking apps may fail.
+org.ifaa.aidl.manager
+
+# Package: com.tencent.soter.soterserver
+# Purpose: Tencent Soter biometric security platform enabling fingerprint payments.
+# Effect of removal: Disables fingerprint payment authentication in WeChat Pay and partner apps.
+com.tencent.soter.soterserver
+
+# Package: com.swfp.factory
+# Purpose: Fingerprint sensor hardware factory testing tool.
+# Effect of removal: Removes factory diagnostic test for fingerprint hardware.
+com.swfp.factory
+
+# Package: com.fingerprints.sensortesttool
+# Purpose: Fingerprint sensor hardware diagnostic and calibration test tool.
+# Effect of removal: Cannot perform hardware sensor test on fingerprint module.
+com.fingerprints.sensortesttool
+
+# Package: com.android.remoteprovisioner
+# Purpose: Android Remote Provisioner managing hardware key attestation certificates.
+# Effect of removal: Disables remote certificate provisioning introduced in Android 13.
+com.android.remoteprovisioner
+
+# Package: com.miui.face
+# Purpose: MIUI Face Unlock engine managing 2D/3D camera facial recognition.
+# Effect of removal: Disables Face Unlock; device can only be unlocked with PIN, password, or fingerprint.
+com.miui.face
+
+# Package: com.xiaomi.aiasst.vision
+# Purpose: Xiaomi AI Vision computer vision service for image recognition.
+# Effect of removal: Disables AI image recognition features in camera and gallery.
+com.xiaomi.aiasst.vision
+
+# Package: com.xiaomi.aicr
+# Purpose: Xiaomi AI Character Recognition (OCR) engine extracting text from camera photos.
+# Effect of removal: Cannot extract or copy text directly from photos or camera preview.
+com.xiaomi.aicr
+
+# Package: com.xiaomi.aon
+# Purpose: Xiaomi Always-On camera sensor driver detecting if user is looking at the screen.
+# Effect of removal: Disables gaze detection (screen stays on while looking, hide notifications when someone peeks).
+com.xiaomi.aon
+
+# Package: com.xiaomi.barrage
+# Purpose: Xiaomi floating message banner and gaming comment bullet-screen engine.
+# Effect of removal: Disables bullet-screen floating notifications in Game Turbo.
+com.xiaomi.barrage
+
+# Package: com.xiaomi.metoknlp
+# Purpose: Xiaomi Network Location Provider resolving cell tower and Wi-Fi geo-coordinates.
+# Effect of removal: Location resolution without GPS may become slower or less accurate.
+com.xiaomi.metoknlp
+
+# Package: com.xiaomi.tsmclient
+# Purpose: Xiaomi Trusted Service Manager for NFC transit cards, access cards, and Mi Pay.
+# Effect of removal: Cannot simulate NFC access cards or use Xiaomi transit bus cards.
+com.xiaomi.tsmclient
+
+# Package: com.miui.translation.xmcloud
+# Purpose: Xiaomi Cloud translation engine for system on-screen translations.
+# Effect of removal: Disables Xiaomi cloud translation in browser and assistant.
+com.miui.translation.xmcloud
+
+# Package: eu.xiaomi.ext
+# Purpose: Xiaomi.eu custom ROM framework extensions and calendar patches.
+# Effect of removal: May cause stability issues or feature loss if running Xiaomi.eu ROM.
+eu.xiaomi.ext
+
+# Package: com.xiaomi.NetworkBoost
+# Purpose: Xiaomi Network Boost (Link Turbo / Dual Wi-Fi acceleration).
+# Effect of removal: Disables concurrent Wi-Fi and mobile data acceleration.
+com.xiaomi.NetworkBoost
+
+# --------------------
+# Moved by Me from Safetouninstall.txt file
+# --------------------
+
+# Package: com.miui.smsextra
+# Purpose: MIUI SMS smart features (categorizing promo SMS, train tickets, OTP buttons).
+# Effect of removal: Reverts stock SMS app to plain text messages without smart cards.
+com.miui.smsextra
+
+# Package: com.miui.wmsvc
+# Purpose: MIUI camera watermark service adding timestamp/device stamp to photos.
+# Effect of removal: Removes custom camera watermark downloading; default watermarks remain.
+com.miui.wmsvc

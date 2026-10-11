@@ -1,109 +1,550 @@
-cn.wps.xiaomi.abroad.lite
-com.agoda.mobile.consumer
-com.alibaba.aliexpresshd
-com.altice.android.myapps
-com.amazon.appmanager
-com.amazon.mShop.android.shopping
-com.android.chrome
-com.android.egg
-com.android.hotwordenrollment.okgoogle
-com.android.hotwordenrollment.xgoogle
-com.android.providers.partnerbookmarks
-com.aura.oobe.deutsche
-com.aura.oobe.vodafone
-com.block.puzzle.game.hippo.mi
-com.booking
-com.crazy.juicer.xm
-com.dti.bouyguestelecom
-com.dti.telefonica
-com.facebook.appmanager
-com.facebook.katana
-com.facebook.services
-com.facebook.system
-com.google.android.apps.docs
-com.google.android.apps.googleassistant
-com.google.android.apps.healthdata
-com.google.android.apps.magazines
-com.google.android.apps.messaging
-com.google.android.apps.photos
-com.google.android.apps.podcasts
-com.google.android.apps.safetyhub
-com.google.android.apps.setupwizard.searchselector
-com.google.android.apps.subscriptions.red
-com.google.android.apps.tachyon
-com.google.android.apps.wellbeing
-com.google.android.apps.youtube.music
-com.google.android.calendar
-com.google.android.contacts
-com.google.android.dialer
-com.google.android.feedback
-com.google.android.gm
-com.google.android.googlequicksearchbox
-com.google.android.marvin.talkback
-com.google.android.videos
-com.google.android.youtube
-com.ironsource.appcloud.oobe.hutchison
-com.jewelsblast.ivygames.Adventure.free
-com.linkedin.android
-com.logame.eliminateintruder3d
-com.mi.global.bbs
-com.mi.globalbrowser
-com.mi.globalminusscreen
-com.mi.global.shop
-com.milink.service
-com.mintgames.triplecrush.tile.fun
-com.mintgames.wordtrip
-com.miui.analytics
-com.miui.audioeffect
-com.miui.audiomonitor
-com.miui.bugreport
-com.miui.cit
-com.miui.daemon
-com.miui.huanji
-com.miui.maintenancemode
-com.miui.miservice
-com.miui.mishare.connectivity
-com.miui.misound
+# ==============================================================================
+# SAFE TO UNINSTALL - BLOATWARE & UNNECESSARY PACKAGES
+# List of bloatware, adware, telemetry, preinstalled games, and non-essential apps safe to remove.
+# ==============================================================================
+# HOW TO USE THIS FILE:
+# - Packages are grouped by functional category.
+# - Each package includes its PURPOSE and the concrete EFFECTS OF REMOVAL.
+# - To keep a package: remove it from safetouninstall.txt or add it to donotuninstall.txt.
+# - Lines starting with '#' and blank lines are ignored by the debloat checker.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# SECTION: 1. Xiaomi Advertising, Analytics & Tracking (Adware & Telemetry)
+# Xiaomi services that inject advertisements, collect telemetry, track usage, or throttle hardware.
+# ------------------------------------------------------------------------------
+
+# Package: com.miui.msa.global
+# Purpose: MIUI System Ads (MSA). Pushes advertisements and sponsored banners across MIUI system apps.
+# Effect of removal: Completely stops system-level ad delivery; saves battery and background data.
 com.miui.msa.global
-com.miui.nextpay
-com.miui.personalassistant
-com.miui.phrase
-com.miui.player
-com.miui.smsextra
+
+# Package: com.miui.analytics
+# Purpose: MIUI Analytics. Collects device telemetry, user activity, app usage, and crash data.
+# Effect of removal: Completely disables Xiaomi telemetry data collection; improves privacy and saves battery.
+com.miui.analytics
+
+# Package: com.miui.systemAdSolution
+# Purpose: MIUI System Ad Solution. Coordinates personalized ad rendering and sponsored app promotions.
+# Effect of removal: Disables targeted ads and sponsored suggestions across MIUI.
 com.miui.systemAdSolution
-com.miui.touchassistant
-com.miui.translation.kingsoft
-com.miui.translationservice
-com.miui.translation.youdao
-com.miui.videoplayer
-com.miui.voiceassist
-com.miui.voicetrigger
-com.miui.vsimcore
-com.miui.wmsvc
-com.miui.yellowpage
-com.mobiletools.systemhelper
-com.netflix.mediaclient
-com.nf.snake
-com.orange.aura.oobe
-com.sfr.android.sfrjeux
-com.shopee.sg
-com.spotify.music
-com.ss.android.ugc.trill
-com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
-com.xiaomi.ab
-com.xiaomi.aiasst.service
-com.xiaomi.gamecenter.sdk.service
-com.xiaomi.glgm
+
+# Package: com.miui.daemon
+# Purpose: MIUI System Daemon. Background analytics logger tracking device performance and app statistics.
+# Effect of removal: Stops background metrics reporting; saves CPU cycles and battery.
+com.miui.daemon
+
+# Package: com.xiaomi.joyose
+# Purpose: Xiaomi Joyose. Junk analytics engine and aggressive game performance throttling service.
+# Effect of removal: Disables Xiaomi background telemetry; prevents artificial thermal throttling in games.
 com.xiaomi.joyose
-com.xiaomi.mi_connect_service
-com.xiaomi.midrop
-com.xiaomi.migameservice
-com.xiaomi.miplay_client
-com.xiaomi.mircs
-com.xiaomi.mirror
-com.xiaomi.payment
-com.xiaomi.smarthome
-com.xiaomi.xmsf
-com.xiaomi.xmsfkeeper
+
+# Package: com.xiaomi.ab
+# Purpose: Xiaomi A/B Testing framework silently running feature experiment tracking.
+# Effect of removal: Disables telemetry for Xiaomi A/B feature tests.
+com.xiaomi.ab
+
+# Package: com.miui.bugreport
+# Purpose: MIUI Bug Report. Collects error logs and prompts to upload them to Xiaomi servers.
+# Effect of removal: Disables automatic bug log collection and crash report upload prompts.
+com.miui.bugreport
+
+# Package: com.miui.miservice
+# Purpose: Services & Feedback. User feedback and log submission portal.
+# Effect of removal: Removes the 'Services & feedback' app; cannot submit bugs directly to Xiaomi via this app.
+com.miui.miservice
+
+# Package: com.android.adservices.api
+# Purpose: Android AdServices API. Google Privacy Sandbox advertising tracking API.
+# Effect of removal: Disables on-device ad measurement and profiling APIs.
+com.android.adservices.api
+
+# Package: com.android.ondevicepersonalization.services
+# Purpose: On-Device Personalization. Android Privacy Sandbox component for personalized ads.
+# Effect of removal: Disables personalized ad profiling.
+com.android.ondevicepersonalization.services
+
+# ------------------------------------------------------------------------------
+# SECTION: 2. Pre-installed Third-Party Games (Bloatware)
+# Casual games preloaded on the device from the factory.
+# ------------------------------------------------------------------------------
+
+# Package: com.block.puzzle.game.hippo.mi
+# Purpose: Block Puzzle game preinstalled by Xiaomi.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.block.puzzle.game.hippo.mi
+
+# Package: com.crazy.juicer.xm
+# Purpose: Crazy Juicer game preinstalled by Xiaomi.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.crazy.juicer.xm
+
+# Package: com.jewelsblast.ivygames.Adventure.free
+# Purpose: Jewels Blast preinstalled casual puzzle game.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.jewelsblast.ivygames.Adventure.free
+
+# Package: com.logame.eliminateintruder3d
+# Purpose: Eliminate Intruder 3D preinstalled casual action game.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.logame.eliminateintruder3d
+
+# Package: com.mintgames.triplecrush.tile.fun
+# Purpose: Triple Crush Tile preinstalled puzzle game.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.mintgames.triplecrush.tile.fun
+
+# Package: com.mintgames.wordtrip
+# Purpose: Word Trip preinstalled word puzzle game.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.mintgames.wordtrip
+
+# Package: com.nf.snake
+# Purpose: Snake preinstalled casual game.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.nf.snake
+
+# Package: com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
+# Purpose: Bubble Shooter preinstalled casual arcade game.
+# Effect of removal: Removes sponsored game; frees internal storage.
+com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
+
+# ------------------------------------------------------------------------------
+# SECTION: 3. Pre-installed Commercial & Social Media Apps
+# Third-party commercial applications and background updater services.
+# ------------------------------------------------------------------------------
+
+# Package: cn.wps.xiaomi.abroad.lite
+# Purpose: WPS Office Lite (Xiaomi International edition). Preinstalled office document viewer with ads.
+# Effect of removal: Removes WPS Office viewer; use Google Docs or Microsoft 365 instead.
+cn.wps.xiaomi.abroad.lite
+
+# Package: cn.wps.moffice_eng.xiaomi.lite
+# Purpose: WPS Office English Lite. Preinstalled office document viewer.
+# Effect of removal: Removes WPS Office viewer.
+cn.wps.moffice_eng.xiaomi.lite
+
+# Package: com.agoda.mobile.consumer
+# Purpose: Agoda hotel and flight booking app preloaded by OEM.
+# Effect of removal: Removes preloaded booking app; can be reinstalled from Play Store if needed.
+com.agoda.mobile.consumer
+
+# Package: com.alibaba.aliexpresshd
+# Purpose: AliExpress shopping application preloaded by OEM.
+# Effect of removal: Removes preloaded shopping app; can be reinstalled from Play Store.
+com.alibaba.aliexpresshd
+
+# Package: com.booking
+# Purpose: Booking.com hotel reservations application preloaded by OEM.
+# Effect of removal: Removes preloaded booking app; can be reinstalled from Play Store.
+com.booking
+
+# Package: com.shopee.sg
+# Purpose: Shopee online shopping marketplace preloaded by OEM.
+# Effect of removal: Removes preloaded shopping app; can be reinstalled from Play Store.
+com.shopee.sg
+
+# Package: ctrip.english
+# Purpose: Trip.com (Ctrip) travel booking application preloaded by OEM.
+# Effect of removal: Removes preloaded travel app; can be reinstalled from Play Store.
 ctrip.english
+
+# Package: com.ss.android.ugc.trill
+# Purpose: TikTok (ByteDance) short video app preloaded by OEM.
+# Effect of removal: Removes preloaded TikTok app; can be reinstalled from Play Store.
+com.ss.android.ugc.trill
+
+# Package: com.linkedin.android
+# Purpose: LinkedIn professional network app preloaded by OEM.
+# Effect of removal: Removes preloaded LinkedIn app; can be reinstalled from Play Store.
+com.linkedin.android
+
+# Package: com.spotify.music
+# Purpose: Spotify music streaming app preloaded by OEM.
+# Effect of removal: Removes preloaded Spotify app; can be reinstalled from Play Store.
+com.spotify.music
+
+# Package: com.netflix.mediaclient
+# Purpose: Netflix video streaming application preloaded by OEM.
+# Effect of removal: Removes preloaded Netflix app; can be reinstalled from Play Store.
+com.netflix.mediaclient
+
+# Package: com.amazon.mShop.android.shopping
+# Purpose: Amazon Shopping app preloaded by OEM.
+# Effect of removal: Removes preloaded Amazon app; can be reinstalled from Play Store.
+com.amazon.mShop.android.shopping
+
+# Package: com.amazon.appmanager
+# Purpose: Amazon App Manager background installer tracking preloaded Amazon apps.
+# Effect of removal: Stops Amazon background updates and analytics.
+com.amazon.appmanager
+
+# Package: com.facebook.katana
+# Purpose: Facebook main application preloaded by OEM.
+# Effect of removal: Removes preloaded Facebook app; can be reinstalled from Play Store.
+com.facebook.katana
+
+# Package: com.facebook.appmanager
+# Purpose: Facebook App Manager silently updating and installing Facebook apps.
+# Effect of removal: Disables Facebook background installer and background tracking.
+com.facebook.appmanager
+
+# Package: com.facebook.services
+# Purpose: Facebook background sync services and telemetry.
+# Effect of removal: Disables Facebook background analytics and telemetry; saves battery.
+com.facebook.services
+
+# Package: com.facebook.system
+# Purpose: Facebook System installer provider allowing Facebook to self-update.
+# Effect of removal: Prevents Facebook from updating outside the Google Play Store.
+com.facebook.system
+
+# ------------------------------------------------------------------------------
+# SECTION: 4. Carrier Setup Stubs & Provisioning Bloatware
+# Carrier Out-of-Box Experience (OOBE) stubs that download promotional carrier apps.
+# ------------------------------------------------------------------------------
+
+# Package: com.aura.oobe.deutsche
+# Purpose: Deutsche Telekom Out-of-Box Experience app installer.
+# Effect of removal: Prevents carrier from automatically downloading sponsored apps on setup.
+com.aura.oobe.deutsche
+
+# Package: com.aura.oobe.vodafone
+# Purpose: Vodafone Out-of-Box Experience app installer.
+# Effect of removal: Prevents carrier from automatically downloading sponsored apps on setup.
+com.aura.oobe.vodafone
+
+# Package: com.orange.aura.oobe
+# Purpose: Orange Carrier Out-of-Box Experience app installer.
+# Effect of removal: Prevents carrier from automatically downloading sponsored apps on setup.
+com.orange.aura.oobe
+
+# Package: com.ironsource.appcloud.oobe.hutchison
+# Purpose: Three / Hutchison carrier app installer powered by ironSource.
+# Effect of removal: Prevents carrier from pushing promotional apps.
+com.ironsource.appcloud.oobe.hutchison
+
+# Package: com.dti.bouyguestelecom
+# Purpose: Bouygues Telecom carrier provisioning and bloatware installer.
+# Effect of removal: Prevents carrier from pushing promotional apps.
+com.dti.bouyguestelecom
+
+# Package: com.dti.telefonica
+# Purpose: Telefonica carrier provisioning and bloatware installer.
+# Effect of removal: Prevents carrier from pushing promotional apps.
+com.dti.telefonica
+
+# Package: com.altice.android.myapps
+# Purpose: Altice carrier app installer stub.
+# Effect of removal: Prevents carrier bloatware installation.
+com.altice.android.myapps
+
+# Package: com.sfr.android.sfrjeux
+# Purpose: SFR Jeux carrier gaming portal.
+# Effect of removal: Removes carrier gaming bloatware.
+com.sfr.android.sfrjeux
+
+# Package: de.telekom.tsc
+# Purpose: Deutsche Telekom Service Center stub.
+# Effect of removal: Removes carrier promotional portal.
 de.telekom.tsc
+
+# ------------------------------------------------------------------------------
+# SECTION: 5. Xiaomi Redundant Apps & Commercial Services
+# Preloaded Xiaomi apps that contain built-in advertisements, duplicate functions, or regional services.
+# ------------------------------------------------------------------------------
+
+# Package: com.mi.globalbrowser
+# Purpose: Mi Browser default web browser. Pushes news feed, ads, and collects browsing history.
+# Effect of removal: Removes Mi Browser; use Google Chrome, Brave, or Firefox.
+com.mi.globalbrowser
+
+# Package: com.mi.global.bbs
+# Purpose: Xiaomi Community official forum and news app.
+# Effect of removal: Removes Xiaomi Community forum app.
+com.mi.global.bbs
+
+# Package: com.mi.global.shop
+# Purpose: Mi Store app for purchasing Xiaomi hardware and gadgets.
+# Effect of removal: Removes Xiaomi shopping app.
+com.mi.global.shop
+
+# Package: com.miui.player
+# Purpose: Mi Music player bundled with streaming music services, ads, and popups.
+# Effect of removal: Removes Mi Music app; use Spotify, YouTube Music, or third-party player.
+com.miui.player
+
+# Package: com.miui.videoplayer
+# Purpose: Mi Video player bundled with trending web clips, ads, and feeds.
+# Effect of removal: Removes Mi Video app; use VLC or MX Player.
+com.miui.videoplayer
+
+# Package: com.miui.yellowpage
+# Purpose: MIUI Yellow Pages directory showing caller ID, ads, and sponsored businesses.
+# Effect of removal: Removes sponsored caller ID directory; saves background battery.
+com.miui.yellowpage
+
+# Package: com.mfashiongallery.emag
+# Purpose: Wallpaper Carousel (Glance) cycling sponsored wallpapers on lock screen.
+# Effect of removal: Removes lock screen ads and sponsored wallpapers; lock screen stays clean.
+com.mfashiongallery.emag
+
+# Package: com.miui.personalassistant
+# Purpose: App Vault (Minus-One screen) widget panel with promotional feeds and shortcuts.
+# Effect of removal: Disables MIUI App Vault feed on the leftmost home screen page.
+com.miui.personalassistant
+
+# Package: com.mi.globalminusscreen
+# Purpose: App Vault Global edition widget feed.
+# Effect of removal: Disables minus-one screen feed.
+com.mi.globalminusscreen
+
+# Package: com.xiaomi.gamecenter.sdk.service
+# Purpose: Xiaomi Game Center SDK running background payment and game tracking.
+# Effect of removal: Disables Xiaomi game platform services.
+com.xiaomi.gamecenter.sdk.service
+
+# Package: com.xiaomi.migameservice
+# Purpose: Xiaomi Game Center background sync and account service.
+# Effect of removal: Disables Xiaomi game services.
+com.xiaomi.migameservice
+
+# Package: com.xiaomi.glgm
+# Purpose: Xiaomi Game Center application.
+# Effect of removal: Removes Xiaomi game store app.
+com.xiaomi.glgm
+
+# Package: com.xiaomi.payment
+# Purpose: Mi Pay core payment engine and wallet service.
+# Effect of removal: Disables Xiaomi Mi Pay; Google Pay / Google Wallet will function normally.
+com.xiaomi.payment
+
+# Package: com.miui.nextpay
+# Purpose: Next-generation Mi Pay payment service.
+# Effect of removal: Disables Xiaomi wallet features.
+com.miui.nextpay
+
+# Package: com.miui.vsimcore
+# Purpose: Virtual SIM service (Mi Roaming) for buying international eSIM roaming data.
+# Effect of removal: Removes Mi Roaming virtual data package purchasing; normal SIM cards are unaffected.
+com.miui.vsimcore
+
+# Package: com.xiaomi.smarthome
+# Purpose: Mi Home application managing Xiaomi IoT smart home appliances.
+# Effect of removal: Removes Mi Home app; can be reinstalled from Play Store if needed.
+com.xiaomi.smarthome
+
+# Package: com.xiaomi.midrop
+# Purpose: ShareMe (Mi Drop) standalone wireless transfer application.
+# Effect of removal: Removes standalone ShareMe app; internal Mi Share protocol is unaffected.
+com.xiaomi.midrop
+
+# Package: com.miui.voiceassist
+# Purpose: Mi AI Voice Assistant (primarily functional in Chinese).
+# Effect of removal: Removes Chinese Mi AI voice assistant; use Google Assistant instead.
+com.miui.voiceassist
+
+# Package: com.miui.voicetrigger
+# Purpose: Voice trigger listener for Mi AI assistant wake word.
+# Effect of removal: Disables background microphone listening for Mi AI wake word; saves battery.
+com.miui.voicetrigger
+
+# Package: com.xiaomi.aiasst.service
+# Purpose: Background service for Xiaomi AI assistant.
+# Effect of removal: Disables Xiaomi AI assistant backend.
+com.xiaomi.aiasst.service
+
+# Package: com.miui.translation.kingsoft
+# Purpose: Kingsoft translation plugin in MIUI browser and system.
+# Effect of removal: Disables Kingsoft translation engine; use Google Translate.
+com.miui.translation.kingsoft
+
+# Package: com.miui.translation.youdao
+# Purpose: Youdao translation plugin in MIUI browser and system.
+# Effect of removal: Disables Youdao translation engine; use Google Translate.
+com.miui.translation.youdao
+
+# Package: com.miui.translationservice
+# Purpose: MIUI system translation service framework.
+# Effect of removal: Disables MIUI built-in translation service.
+com.miui.translationservice
+
+# Package: com.miui.phrase
+# Purpose: Frequent phrases keyboard shortcut tool.
+# Effect of removal: Disables the frequent phrase quick paste bar above the keyboard.
+com.miui.phrase
+
+# Package: com.mobiletools.systemhelper
+# Purpose: Mobile Tools system helper utility.
+# Effect of removal: Disables system helper diagnostic stub.
+com.mobiletools.systemhelper
+
+# Package: com.miui.huanji
+# Purpose: Mi Mover (Phone Clone) app transferring apps and data between phones.
+# Effect of removal: Removes Mi Mover app; device-to-device migration must be done via Google.
+com.miui.huanji
+
+# Package: com.miui.maintenancemode
+# Purpose: Maintenance Mode hiding private photos/contacts when sending phone for repair.
+# Effect of removal: Disables Maintenance Mode toggle in Settings.
+com.miui.maintenancemode
+
+# Package: com.xiaomi.mircs
+# Purpose: Xiaomi RCS (Rich Communication Services) proprietary messaging framework.
+# Effect of removal: Disables Xiaomi's internal RCS channel; Google Messages RCS is unaffected.
+com.xiaomi.mircs
+
+# Package: com.xiaomi.miplay_client
+# Purpose: Mi Play client for media streaming to Xiaomi smart speakers.
+# Effect of removal: Cannot cast media directly to Xiaomi smart speakers.
+com.xiaomi.miplay_client
+
+# Package: com.miui.fm
+# Purpose: MIUI FM Radio application using wired headphones as an antenna.
+# Effect of removal: Removes built-in FM Radio app; cannot listen to offline FM radio broadcasts.
+com.miui.fm
+
+# Package: com.miui.fmservice
+# Purpose: Background hardware tuner service required for MIUI FM Radio.
+# Effect of removal: FM Radio will not detect channels or function.
+com.miui.fmservice
+
+# Package: com.miui.audiomonitor
+# Purpose: MIUI Audio Monitor background audio routing observer.
+# Effect of removal: Safe to remove; disables background audio activity observer.
+com.miui.audiomonitor
+
+# ------------------------------------------------------------------------------
+# SECTION: 6. Google Optional Apps & Redundant Services
+# Pre-installed Google applications that can be safely removed or reinstalled from the Play Store.
+# ------------------------------------------------------------------------------
+
+# Package: com.google.android.apps.docs
+# Purpose: Google Drive / Google Docs cloud storage and office viewer.
+# Effect of removal: Removes preloaded Google Drive/Docs; can be reinstalled from Play Store.
+com.google.android.apps.docs
+
+# Package: com.google.android.apps.googleassistant
+# Purpose: Google Assistant standalone shortcut launcher.
+# Effect of removal: Removes Google Assistant shortcut icon; assistant can still be accessed via gesture.
+com.google.android.apps.googleassistant
+
+# Package: com.google.android.apps.magazines
+# Purpose: Google News app delivering news articles and magazine subscriptions.
+# Effect of removal: Removes Google News app; can be reinstalled from Play Store.
+com.google.android.apps.magazines
+
+# Package: com.google.android.apps.podcasts
+# Purpose: Google Podcasts audio listening application (deprecated by Google).
+# Effect of removal: Removes deprecated Google Podcasts app.
+com.google.android.apps.podcasts
+
+# Package: com.google.android.apps.photos
+# Purpose: Google Photos cloud photo backup and gallery application.
+# Effect of removal: Removes Google Photos; photos are managed locally by MIUI Gallery.
+com.google.android.apps.photos
+
+# Package: com.google.android.apps.tachyon
+# Purpose: Google Meet (formerly Google Duo) video calling application.
+# Effect of removal: Removes Google Meet video calling app; can be reinstalled from Play Store.
+com.google.android.apps.tachyon
+
+# Package: com.google.android.apps.wellbeing
+# Purpose: Digital Wellbeing screen time monitor, app timers, and bedtime mode.
+# Effect of removal: Disables screen time tracking and app timer limits; saves background battery.
+com.google.android.apps.wellbeing
+
+# Package: com.google.android.apps.youtube.music
+# Purpose: YouTube Music streaming player preloaded by Google.
+# Effect of removal: Removes YouTube Music app; can be reinstalled from Play Store.
+com.google.android.apps.youtube.music
+
+# Package: com.google.android.youtube
+# Purpose: YouTube main video streaming application.
+# Effect of removal: Removes preloaded YouTube app; can be reinstalled from Play Store or use web browser.
+com.google.android.youtube
+
+# Package: com.google.android.videos
+# Purpose: Google TV (Google Play Movies & TV) video store and rental service.
+# Effect of removal: Removes Google TV app; can be reinstalled from Play Store.
+com.google.android.videos
+
+# Package: com.google.android.gm
+# Purpose: Gmail official email client.
+# Effect of removal: Removes preloaded Gmail app; can be reinstalled from Play Store.
+com.google.android.gm
+
+# Package: com.google.android.googlequicksearchbox
+# Purpose: Google Search app providing the search bar widget and Google Discover feed.
+# Effect of removal: Removes Google Search bar on home screen and Discover feed swipe.
+com.google.android.googlequicksearchbox
+
+# Package: com.google.android.feedback
+# Purpose: Google Play Feedback crash log submission service.
+# Effect of removal: Disables user feedback prompts when an app crashes.
+com.google.android.feedback
+
+# Package: com.google.android.calendar
+# Purpose: Google Calendar app.
+# Effect of removal: Removes Google Calendar app; local calendar events managed by MIUI Calendar.
+com.google.android.calendar
+
+# Package: com.google.android.contacts
+# Purpose: Google Contacts app.
+# Effect of removal: Removes Google Contacts app; contacts managed by MIUI Contacts.
+com.google.android.contacts
+
+# Package: com.google.android.dialer
+# Purpose: Google Phone / Dialer app.
+# Effect of removal: Removes Google Dialer; calls managed by MIUI Phone.
+com.google.android.dialer
+
+# Package: com.google.android.apps.messaging
+# Purpose: Google Messages SMS app.
+# Effect of removal: Removes Google Messages; SMS managed by MIUI Messaging.
+com.google.android.apps.messaging
+
+# Package: com.google.android.apps.healthdata
+# Purpose: Health Connect data repository for sharing health data between fitness apps.
+# Effect of removal: Disables health data syncing between Google Fit and third-party apps.
+com.google.android.apps.healthdata
+
+# Package: com.google.android.apps.safetyhub
+# Purpose: Google Personal Safety app for emergency SOS and crash detection.
+# Effect of removal: Removes Google Safety app features.
+com.google.android.apps.safetyhub
+
+# Package: com.google.android.apps.subscriptions.red
+# Purpose: Google YouTube Red / Premium subscription manager helper.
+# Effect of removal: Disables YouTube Premium helper stub.
+com.google.android.apps.subscriptions.red
+
+# Package: com.google.android.apps.setupwizard.searchselector
+# Purpose: Search provider selector screen shown during EU initial setup.
+# Effect of removal: Disables EU search engine choice dialog during setup.
+com.google.android.apps.setupwizard.searchselector
+
+# Package: com.android.chrome
+# Purpose: Google Chrome web browser.
+# Effect of removal: Removes Google Chrome; ensure you have another browser installed before removing.
+com.android.chrome
+
+# Package: com.android.hotwordenrollment.okgoogle
+# Purpose: OK Google voice model training and hotword enrollment.
+# Effect of removal: Cannot train or use 'Hey Google' hands-free voice wake-up.
+com.android.hotwordenrollment.okgoogle
+
+# Package: com.android.hotwordenrollment.xgoogle
+# Purpose: Google Assistant auxiliary voice hotword enrollment.
+# Effect of removal: Disables hands-free Assistant voice trigger.
+com.android.hotwordenrollment.xgoogle
+
+# Package: com.android.providers.partnerbookmarks
+# Purpose: Partner Bookmarks provider inserting sponsored bookmarks into browser.
+# Effect of removal: Removes preloaded carrier and OEM bookmarks from web browsers.
+com.android.providers.partnerbookmarks
+
+# Package: com.android.egg
+# Purpose: Android Easter Egg mini-game hidden in Settings > Android Version.
+# Effect of removal: Removes Easter Egg animation/game; completely safe.
+com.android.egg
