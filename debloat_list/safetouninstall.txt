@@ -524,10 +524,6 @@ com.google.android.apps.subscriptions.red
 # Effect of removal: Disables EU search engine choice dialog during setup.
 com.google.android.apps.setupwizard.searchselector
 
-# Package: com.android.chrome
-# Purpose: Google Chrome web browser.
-# Effect of removal: Removes Google Chrome; ensure you have another browser installed before removing.
-com.android.chrome
 
 # Package: com.android.hotwordenrollment.okgoogle
 # Purpose: OK Google voice model training and hotword enrollment.
@@ -548,3 +544,128 @@ com.android.providers.partnerbookmarks
 # Purpose: Android Easter Egg mini-game hidden in Settings > Android Version.
 # Effect of removal: Removes Easter Egg animation/game; completely safe.
 com.android.egg
+
+# ------------------------------------------------------------------------------
+# Added 2026-10-11 from nikgapps.config (Google packages set to =-1: remove)
+# ------------------------------------------------------------------------------
+# Package: com.google.android.ims
+# Purpose: Carrier Services (nikgapps CarrierServices=-1). RCS/advanced messaging backend for Google Messages.
+# Effect of removal: RCS chat in Google Messages stops; SMS/MMS via MIUI Messaging unaffected (Google Messages is also removed).
+com.google.android.ims
+# Package: com.google.android.deskclock
+# Purpose: Google Clock (nikgapps GoogleClock=-1). Google's clock/alarm app.
+# Effect of removal: Removes Google Clock; MIUI Clock (separate package) keeps alarms working.
+com.google.android.deskclock
+# Package: com.google.android.setupwizard
+# Purpose: Google Setup Wizard (nikgapps SetupWizard=-1). First-boot setup flow.
+# Effect of removal: Safe to remove after initial setup; setup flow already completed.
+com.google.android.setupwizard
+# Package: com.google.android.calculator
+# Purpose: Google Calculator (nikgapps GoogleCalculator=-1).
+# Effect of removal: Removes Google Calculator; MIUI Calculator is protected separately.
+com.google.android.calculator
+# Package: com.google.android.keep
+# Purpose: Google Keep (nikgapps GoogleKeep=-1). Notes app.
+# Effect of removal: Removes Google Keep; MIUI Notes is protected separately.
+com.google.android.keep
+# Package: com.google.android.apps.nexuslauncher
+# Purpose: Pixel Launcher (nikgapps PixelLauncher=-1). Pixel-exclusive launcher.
+# Effect of removal: Not shipped on MIUI; no-op on this ROM.
+com.google.android.apps.nexuslauncher
+# Package: com.google.android.as
+# Purpose: Device Personalization Services / Android System Intelligence (nikgapps DevicePersonalizationServices=-1). Live Caption, Now Playing, smart actions.
+# Effect of removal: Moved from protected list 2026-10-11: Pixel-centric features are inert on MIUI; safe to remove here.
+com.google.android.as
+# Package: com.google.android.apps.wallpaper
+# Purpose: Google Wallpapers (nikgapps GoogleWallpaper=-1).
+# Effect of removal: Removes Google Wallpapers; MIUI wallpaper engine is protected separately.
+com.google.android.apps.wallpaper
+# Package: com.google.android.settings.intelligence
+# Purpose: Settings Services (nikgapps SettingsServices=-1). Settings suggestions and status info for widgets.
+# Effect of removal: Settings suggestions stop; core Settings unaffected.
+com.google.android.settings.intelligence
+# Package: com.google.android.as.oss
+# Purpose: Private Compute Services (nikgapps PrivateComputeServices=-1). On-device ML sandbox for Pixel features.
+# Effect of removal: Moved from protected list 2026-10-11: Pixel features (Live Translate etc.) inert on MIUI; safe to remove here.
+com.google.android.as.oss
+# Package: com.google.android.apps.customization.pixel
+# Purpose: Pixel Themes (nikgapps PixelThemes=-1). Pixel-exclusive theming.
+# Effect of removal: Not shipped on MIUI; no-op on this ROM.
+com.google.android.apps.customization.pixel
+# Package: com.google.android.play.games
+# Purpose: Google Play Games (nikgapps PlayGames=-1). Games dashboard and profiles.
+# Effect of removal: Removes Play Games; installed games keep working.
+com.google.android.play.games
+# Package: com.google.android.apps.recorder
+# Purpose: Google Recorder (nikgapps GoogleRecorder=-1).
+# Effect of removal: Removes Google Recorder; MIUI Sound Recorder is protected separately.
+com.google.android.apps.recorder
+# Package: com.google.android.apps.nbu.files
+# Purpose: Google Files (nikgapps GoogleFiles=-1).
+# Effect of removal: Removes Google Files; MIUI File Manager is protected separately.
+com.google.android.apps.nbu.files
+# Package: com.google.android.storagemanager
+# Purpose: Google Storage Manager (nikgapps StorageManager=-1). Google's storage cleaner in Settings.
+# Effect of removal: Google storage cleaner UI removed; AOSP storage manager (com.android.storagemanager, protected) unaffected.
+com.google.android.storagemanager
+# Package: com.google.android.documentsui
+# Purpose: Google DocumentsUI (nikgapps DocumentsUIGoogle=-1). Google's file picker UI.
+# Effect of removal: Removes Google file picker; MIUI File Manager handles file picking.
+com.google.android.documentsui
+# Package: com.google.android.markup
+# Purpose: Google Markup (nikgapps MarkupGoogle=-1). Screenshot markup editor from AOSP/Pixel.
+# Effect of removal: Safe on MIUI: screenshot editing is handled by MIUI Screenshot (protected), not this package.
+com.google.android.markup
+# Package: com.google.android.partnersetup
+# Purpose: Google Partner Setup (nikgapps GooglePartnerSetup=-1). Partner/carrier setup wizard component.
+# Effect of removal: Safe to remove after initial setup.
+com.google.android.partnersetup
+# Package: com.google.android.apps.work.oobconfig
+# Purpose: Device Setup (nikgapps DeviceSetup=-1). Out-of-box work device configuration.
+# Effect of removal: Safe to remove after initial setup.
+com.google.android.apps.work.oobconfig
+# Package: com.google.android.apps.work.clouddpc
+# Purpose: Android Device Policy (nikgapps AndroidDevicePolicy=-1). Google work-profile management.
+# Effect of removal: Safe to remove if the device is not managed as a Google work profile.
+com.google.android.apps.work.clouddpc
+# Package: com.google.android.apps.docs.editors.docs
+# Purpose: Google Docs (nikgapps GoogleDocs=-1).
+# Effect of removal: Removes Google Docs; reinstallable from Play Store.
+com.google.android.apps.docs.editors.docs
+# Package: com.google.android.apps.docs.editors.sheets
+# Purpose: Google Sheets (nikgapps GoogleSheets=-1).
+# Effect of removal: Removes Google Sheets; reinstallable from Play Store.
+com.google.android.apps.docs.editors.sheets
+# Package: com.google.android.apps.docs.editors.slides
+# Purpose: Google Slides (nikgapps GoogleSlides=-1).
+# Effect of removal: Removes Google Slides; reinstallable from Play Store.
+com.google.android.apps.docs.editors.slides
+# Package: com.google.android.apps.books
+# Purpose: Google Play Books (nikgapps Books=-1).
+# Effect of removal: Removes Play Books; reinstallable from Play Store.
+com.google.android.apps.books
+# Package: com.google.android.marvin.talkback
+# Purpose: Google TalkBack (nikgapps GoogleTalkback=-1). Screen reader accessibility service.
+# Effect of removal: Only remove if you do not use a screen reader; reinstallable from Play Store if needed.
+com.google.android.marvin.talkback
+# Package: com.google.android.apps.restore
+# Purpose: Google Data Restore (nikgapps GoogleRestore=-1). Restores apps/data during device setup.
+# Effect of removal: Safe to remove after setup is complete.
+com.google.android.apps.restore
+# Package: com.google.android.onetimeinitializer
+# Purpose: Google One-Time Initializer (nikgapps GoogleOneTimeInitializer=-1). Runs once at first boot.
+# Effect of removal: Safe to remove; only ever runs on first boot.
+com.google.android.onetimeinitializer
+# Package: com.google.android.apps.turbo
+# Purpose: Device Health Services (nikgapps DeviceHealthServices=-1). Battery predictions and adaptive brightness curves.
+# Effect of removal: Moved from protected 2026-10-11: MIUI manages its own battery/brightness; safe to remove here.
+com.google.android.apps.turbo
+# Package: com.google.android.soundpicker
+# Purpose: Google Sounds (nikgapps GoogleSounds=-1). Google ringtone/alarm picker.
+# Effect of removal: Moved from protected 2026-10-11: MIUI has its own sound picker; safe to remove here.
+com.google.android.soundpicker
+
+# Package: com.google.android.ondevicepersonalization.services
+# Purpose: Google On-Device Personalization (Privacy Sandbox). On-device ad profiling and personalized content modeling.
+# Effect of removal: Moved from protected 2026-10-11: disables Google's on-device ad personalization; its AOSP twin was already in the remove list.
+com.google.android.ondevicepersonalization.services

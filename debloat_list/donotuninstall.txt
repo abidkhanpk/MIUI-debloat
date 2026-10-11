@@ -719,15 +719,7 @@ com.google.android.inputmethod.latin
 # Effect of removal: Disables voice guidance in Google Maps and speech synthesis in translation apps.
 com.google.android.tts
 
-# Package: com.google.android.apps.restore
-# Purpose: Google Data Restore tool transferring apps, photos, and messages during device setup.
-# Effect of removal: Cannot restore Google backup data during phone setup or migration.
-com.google.android.apps.restore
 
-# Package: com.google.android.apps.turbo
-# Purpose: Device Health Services predicting battery life and adjusting adaptive brightness.
-# Effect of removal: Disables adaptive battery predictions and intelligent brightness curves.
-com.google.android.apps.turbo
 
 # Package: com.google.android.configupdater
 # Purpose: Google Play system configuration background updater for timezones, certs, and security keys.
@@ -744,10 +736,6 @@ com.google.android.ext.services
 # Effect of removal: May cause errors with Google Play system updates in Settings > About Phone.
 com.google.android.modulemetadata
 
-# Package: com.google.android.onetimeinitializer
-# Purpose: One-time setup initializer executed on first device boot.
-# Effect of removal: Only runs once on first boot; safe to leave untouched.
-com.google.android.onetimeinitializer
 
 # Package: com.google.android.safetycenter.resources
 # Purpose: Google Safety Center unified privacy and security dashboard resources.
@@ -774,10 +762,6 @@ com.google.android.apps.walletnfcrel
 # Effect of removal: Apps relying on Augmented Reality (Measure, Pokemon GO, IKEA) will not work.
 com.google.ar.core
 
-# Package: com.google.android.soundpicker
-# Purpose: Google Sounds audio picker dialog for selecting ringtones and alarm sounds.
-# Effect of removal: System will use default MIUI sound picker instead of Google Sounds.
-com.google.android.soundpicker
 
 # Package: com.google.android.gms.location.history
 # Purpose: Google Location History (Timeline) tracking places visited.
@@ -794,20 +778,8 @@ com.google.android.gms.supervision
 # Effect of removal: Disables Switch Access accessibility feature.
 com.google.android.accessibility.switchaccess
 
-# Package: com.google.android.marvin.talkback
-# Purpose: Android Accessibility Suite / TalkBack screen reader for visually impaired users.
-# Effect of removal: Disables TalkBack spoken feedback accessibility.
-com.google.android.marvin.talkback
 
-# Package: com.google.android.as
-# Purpose: Android System Intelligence providing Live Caption, smart clipboard, and predictive app drawer.
-# Effect of removal: Disables Live Caption, notification action suggestions, and smart text copy.
-com.google.android.as
 
-# Package: com.google.android.as.oss
-# Purpose: Open-source support library for Android System Intelligence.
-# Effect of removal: May disable open-source components of Android System Intelligence.
-com.google.android.as.oss
 
 # Package: com.google.ambient.streaming
 # Purpose: Ambient streaming audio service for smart accessories.
@@ -824,10 +796,6 @@ com.google.android.adservices.api
 # Effect of removal: Disables federated machine learning model training on device.
 com.google.android.federatedcompute
 
-# Package: com.google.android.ondevicepersonalization.services
-# Purpose: Google On-Device Personalization service tailoring recommendations without sending raw data.
-# Effect of removal: Disables on-device personalized content modeling.
-com.google.android.ondevicepersonalization.services
 
 # Package: com.google.mainline.adservices
 # Purpose: Mainline modular AdServices component updated via Google Play.
@@ -1312,3 +1280,24 @@ com.miui.smsextra
 # Purpose: MIUI camera watermark service adding timestamp/device stamp to photos.
 # Effect of removal: Removes custom camera watermark downloading; default watermarks remain.
 com.miui.wmsvc
+
+# ------------------------------------------------------------------------------
+# Added 2026-10-11 from nikgapps.config (packages set to =1: keep)
+# ------------------------------------------------------------------------------
+# Package: com.google.android.gsf
+# Purpose: Google Services Framework (nikgapps Core=1). Core framework managing Google app updates and account services.
+# Effect of removal: Critical for Google apps. Removing breaks Play Services-dependent apps and Play Store updates.
+com.google.android.gsf
+# Package: com.google.android.syncadapters.contacts
+# Purpose: Google Contacts Sync Adapter (nikgapps Core=1). Syncs contacts with the Google account.
+# Effect of removal: Google account contact sync stops working.
+com.google.android.syncadapters.contacts
+# Package: com.google.android.syncadapters.calendar
+# Purpose: Google Calendar Sync Adapter (nikgapps Core=1). Syncs calendar events with the Google account.
+# Effect of removal: Google account calendar sync stops working.
+com.google.android.syncadapters.calendar
+# Package: com.android.chrome
+# Purpose: Google Chrome (nikgapps GoogleChrome=1). Also provides Android System WebView (Trichrome) on MIUI 14.
+# Effect of removal: Moved from safe list 2026-10-11: removing Chrome also removes WebView, breaking in-app browsers, login pages and banking apps.
+com.android.chrome
+
