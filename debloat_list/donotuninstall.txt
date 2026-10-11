@@ -369,10 +369,6 @@ com.miui.cit
 # Effect of removal: System apps will not receive automatic component updates from Xiaomi.
 com.xiaomi.market
 
-# Package: com.android.email
-# Purpose: Stock Xiaomi/AOSP email application.
-# Effect of removal: Removes stock email client; use Gmail or Outlook instead.
-com.android.email
 
 # ------------------------------------------------------------------------------
 # SECTION: 6. Xiaomi Interconnectivity, Mi Share & Wireless Casting
@@ -384,10 +380,6 @@ com.android.email
 # Effect of removal: Disables screen casting to Xiaomi smart screens and PC interconnectivity.
 com.milink.service
 
-# Package: com.miui.mishare.connectivity
-# Purpose: Mi Share protocol service enabling rapid high-speed wireless transfers with Xiaomi, OPPO, and Vivo devices.
-# Effect of removal: Disables Mi Share quick tile and wireless file sharing with nearby phones.
-com.miui.mishare.connectivity
 
 # Package: com.xiaomi.mi_connect_service
 # Purpose: Xiaomi Mi Connect Service powering device discovery, Mi Share, and Xiaomi IoT ecosystem pairing.

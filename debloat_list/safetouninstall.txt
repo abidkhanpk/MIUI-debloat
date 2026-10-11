@@ -669,3 +669,11 @@ com.google.android.soundpicker
 # Purpose: Google On-Device Personalization (Privacy Sandbox). On-device ad profiling and personalized content modeling.
 # Effect of removal: Moved from protected 2026-10-11: disables Google's on-device ad personalization; its AOSP twin was already in the remove list.
 com.google.android.ondevicepersonalization.services
+# Package: com.android.email
+# Purpose: Stock AOSP Email application (moved from protected 2026-10-11 per user request).
+# Effect of removal: Removes the stock email client. Note: Gmail is also in the remove list, so no email client will remain; install FairEmail/Outlook/K-9 from Play Store if needed.
+com.android.email
+# Package: com.miui.mishare.connectivity
+# Purpose: Mi Share protocol service for high-speed wireless transfers with Xiaomi, OPPO, and Vivo devices (moved from protected 2026-10-11 per user request - not used).
+# Effect of removal: Disables the Mi Share quick tile in Control Center and wireless file sharing with nearby phones. The tile disappears after a reboot.
+com.miui.mishare.connectivity
